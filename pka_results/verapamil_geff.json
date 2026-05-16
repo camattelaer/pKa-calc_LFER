@@ -1,0 +1,22 @@
+{
+  "compound": "verapamil",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "VerapamilH",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -1579.497532829134,
+      "n_struct_found": 2521,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Verapamil",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -1579.0661569136253,
+      "n_struct_found": 821,
+      "n_struct_used": 10
+    }
+  ]
+}

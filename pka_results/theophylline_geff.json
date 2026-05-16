@@ -1,0 +1,22 @@
+{
+  "compound": "theophylline",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Theophylline",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -640.8531689507648,
+      "n_struct_found": 4,
+      "n_struct_used": 4
+    },
+    {
+      "name": "Theophyllinate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -640.3860998308946,
+      "n_struct_found": 4,
+      "n_struct_used": 4
+    }
+  ]
+}

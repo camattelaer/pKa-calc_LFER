@@ -1,0 +1,22 @@
+{
+  "compound": "tetrazole",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Tetrazole",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -258.199745375158,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Tetrazolate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -257.754253178024,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

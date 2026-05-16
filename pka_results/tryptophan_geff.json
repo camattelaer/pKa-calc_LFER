@@ -1,0 +1,30 @@
+{
+  "compound": "tryptophan",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "TrpH2_cation",
+      "charge": 1,
+      "n_protons": 2,
+      "G_eff_Eh": -686.5344637600161,
+      "n_struct_found": 26,
+      "n_struct_used": 10
+    },
+    {
+      "name": "TrpH_neutral",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -686.0965917396367,
+      "n_struct_found": 10,
+      "n_struct_used": 5
+    },
+    {
+      "name": "Trp_anion",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -685.6385255404773,
+      "n_struct_found": 19,
+      "n_struct_used": 10
+    }
+  ]
+}

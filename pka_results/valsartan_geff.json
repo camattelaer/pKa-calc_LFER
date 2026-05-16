@@ -1,0 +1,22 @@
+{
+  "compound": "valsartan",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Valsartan",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -1470.0251598365803,
+      "n_struct_found": 1133,
+      "n_struct_used": 9
+    },
+    {
+      "name": "Valsartan_ani",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -1469.5853940111488,
+      "n_struct_found": 1293,
+      "n_struct_used": 10
+    }
+  ]
+}

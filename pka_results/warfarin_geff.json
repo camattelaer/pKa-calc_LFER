@@ -1,0 +1,22 @@
+{
+  "compound": "warfarin",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Warfarin",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -763.9609737590758,
+      "n_struct_found": 16,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Warfarinate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -763.516620980718,
+      "n_struct_found": 10,
+      "n_struct_used": 7
+    }
+  ]
+}

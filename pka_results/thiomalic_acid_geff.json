@@ -1,0 +1,22 @@
+{
+  "compound": "thiomalic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Thiomalate_SH",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -854.5903249485641,
+      "n_struct_found": 15,
+      "n_struct_used": 3
+    },
+    {
+      "name": "Thiomalate_S",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -853.9709706618575,
+      "n_struct_found": 3,
+      "n_struct_used": 2
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "compound": "tyrosine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Tyrosine_zwitterion",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -590.4192781170747,
+      "n_struct_found": 19,
+      "n_struct_used": 6
+    },
+    {
+      "name": "Tyrosinate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -589.958244692711,
+      "n_struct_found": 12,
+      "n_struct_used": 9
+    }
+  ]
+}

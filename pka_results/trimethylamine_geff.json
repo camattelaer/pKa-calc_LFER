@@ -1,0 +1,22 @@
+{
+  "compound": "trimethylamine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Trimethylammonium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -174.770968826808,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Trimethylamine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -174.31951266767135,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    }
+  ]
+}

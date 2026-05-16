@@ -1,0 +1,30 @@
+{
+  "compound": "taurine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Taurine_cat",
+      "charge": 1,
+      "n_protons": 2,
+      "G_eff_Eh": -759.307094703376,
+      "n_struct_found": 13,
+      "n_struct_used": 9
+    },
+    {
+      "name": "Taurine_zwit",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -758.8874145695461,
+      "n_struct_found": 6,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Taurine_anion",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -758.4334697675002,
+      "n_struct_found": 8,
+      "n_struct_used": 5
+    }
+  ]
+}

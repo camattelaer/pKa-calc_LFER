@@ -1,0 +1,22 @@
+{
+  "compound": "tramadol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "TramadolH+",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -790.5788869099018,
+      "n_struct_found": 38,
+      "n_struct_used": 9
+    },
+    {
+      "name": "Tramadol",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -790.1298967625736,
+      "n_struct_found": 80,
+      "n_struct_used": 2
+    }
+  ]
+}

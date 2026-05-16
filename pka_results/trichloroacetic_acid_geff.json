@@ -1,0 +1,22 @@
+{
+  "compound": "trichloroacetic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "TCA",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -1607.7761808862535,
+      "n_struct_found": 4,
+      "n_struct_used": 4
+    },
+    {
+      "name": "TCA_ani",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -1607.3426598047731,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}
