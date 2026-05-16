@@ -1,0 +1,22 @@
+GPR Test Set Predictions
+Model: pka_results/gpr_model.json
+Method: r2SCAN-3c
+
+Compound                Step                           q   pKa_calc   pKa_exp   pKa_pred       σ     err
+────────────────────────────────────────────────────────────────────────────────────────────────────
+cetirizine              CetH2+→Cet_zwit              1     204.23     2.200      7.435   3.482  -5.235
+cetirizine              Cet_zwit→Cet_ani             0     211.35     8.000      6.328   1.049  +1.672
+chlorpromazine          Chlorpromazi→Chlorproma      1     208.47     9.300      8.356   1.386  +0.944
+diclofenac              Diclofenac→Diclofenac        0     207.27     4.150      3.790   0.869  +0.360
+fluoxetine              FluoxetineH+→Fluoxetine      1     207.74    10.050      8.969   1.158  +1.081
+lidocaine               LidocaineH+→Lidocaine        1     205.37     7.900      7.691   1.857  +0.209
+metoprolol              MetoprololH+→Metoprolol      1     211.34     9.670      9.657   1.112  +0.013
+naproxen                Naproxen→Naproxenat          0     209.32     4.190      4.761   0.865  -0.571
+propranolol             PropranololH→Propranolo      1     205.69     9.530      8.558   0.973  +0.972
+quinine                 QuinineH2+→QuinineH+         2     200.46     4.130      4.987   3.025  -0.857
+quinine                 QuinineH+→Quinine            1     207.72     8.520      9.086   0.973  -0.566
+tramadol                TramadolH+→Tramadol          1     206.52     9.410      7.451   1.446  +1.959
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Test RMSE: 1.793   MAE: 1.203   N=12 steps with experimental pKa
+Training LOO RMSE: 1.378   LOO MAE: 0.855
