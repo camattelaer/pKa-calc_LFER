@@ -1,0 +1,31 @@
+GPR Test Set Predictions
+Model: pka_results/gpr_model.json
+Method: r2SCAN-3c
+
+Compound                Step                         q   pKa_calc   pKa_exp   pKa_pred       σ     err
+────────────────────────────────────────────────────────────────────────────────────────────────────
+amlodipine              AmlodipineH_→Amlodipine      1     202.30     9.260      6.333   1.733  +2.927
+amoxicillin             AmoxH2_catio→AmoxH_zwit      1     208.06     2.400      4.319   2.028  -1.919
+amoxicillin             AmoxH_zwitte→Amox_neutr      0     201.94     7.490      5.150   2.158  +2.340
+amoxicillin             Amox_neutral→Amox_diani     -1     216.07     9.630      7.763   1.797  +1.867
+aspirin                 AspirinH→Aspirinate          0     212.62     3.500     10.897   2.224  -7.397
+atenolol                AtenololH_ca→Atenolol_n      1     210.61     9.600      9.574   1.597  +0.026
+ciprofloxacin           CiproH2_cati→CiproH_zwi      1     213.87     6.090      8.883   2.059  -2.793
+ciprofloxacin           CiproH_zwitt→Cipro_anio      0     206.65     8.740      7.270   1.747  +1.470
+furosemide              FurosemideH2→Furosemide      0     206.00     3.800      4.845   1.173  -1.045
+furosemide              FurosemideH_→Furosemide     -1     217.40     9.900      9.709   2.505  +0.191
+glutamic_acid           H3Glu_cation→H2Glu_zwit      1     200.96     2.100      1.072   2.112  +1.028
+glutamic_acid           H2Glu_zwitte→HGlu_anion      0     205.28     4.070      3.620   1.154  +0.450
+glutamic_acid           HGlu_anion→Glu_dianio       -1     216.80     9.470      8.321   2.544  +1.149
+ibuprofen               IbuprofenH→Ibuprofen_        0     209.03     4.910      6.168   1.182  -1.258
+metformin               MetforminH2_→MetforminH      2     189.64     2.800      3.504   3.340  -0.704
+metformin               MetforminH_c→Metformin_      1     186.98    11.500     -1.769   5.558  +13.269
+morphine                MorphineH2_d→MorphineH_      1     206.32     8.210      5.181   2.215  +3.029
+morphine                MorphineH_ne→Morphine_p      0     216.18     9.510     10.489   1.292  -0.979
+sertraline              SertralineH_→Sertraline      1     206.84     9.470      8.309   1.546  +1.161
+threonine               ThrH2_cation→Thr_zwitte      1     200.50     2.090      0.987   2.271  +1.103
+threonine               Thr_zwitteri→Thr_anion       0     209.21     9.100      9.441   1.288  -0.341
+tryptophan              TrpH2_cation→TrpH_neutr      1     201.41     2.380      1.309   2.099  +1.071
+tryptophan              TrpH_neutral→Trp_anion       0     210.79     9.390     10.370   1.359  -0.980
+
+Test RMSE: 3.506   MAE: 2.109

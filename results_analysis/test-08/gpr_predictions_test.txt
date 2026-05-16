@@ -1,0 +1,18 @@
+GPR Test Set Predictions
+Model: pka_results/gpr_model.json
+Method: r2SCAN-3c
+
+Compound                Step                           q   pKa_calc   pKa_exp   pKa_pred       σ     err
+────────────────────────────────────────────────────────────────────────────────────────────────────
+acetohydroxamic_acid    AcetoHA→AcetoHAani           0     214.22     9.400      8.329   1.890  +1.071
+creatinine              Creatinine→Creatinina        0     218.68     4.830     11.573   1.790  -6.743
+hydroxylamine           Hydroxylammo→Hydroxylam      1     198.85     6.000      7.613   2.285  -1.613
+methanesulfonamide      MeSulfonamid→MeSulfonam      0     216.22    10.100     10.199   2.273  -0.099
+piperidine              Piperidinium→Piperidine      1     208.85    11.120      9.867   1.475  +1.253
+saccharin               Saccharin→Saccharina         0     202.41     1.600      3.448   1.605  -1.848
+taurine                 Taurine_cat→Taurine_zw       1     193.04     1.500      3.110   2.896  -1.610
+taurine                 Taurine_zwit→Taurine_an      0     208.80     9.060      8.907   1.624  +0.153
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Test RMSE: 2.665   MAE: 1.799   N=8 steps with experimental pKa
+Training LOO RMSE: 1.941   LOO MAE: 1.145

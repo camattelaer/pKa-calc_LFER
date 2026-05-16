@@ -1,0 +1,15 @@
+GPR Test Set Predictions
+Model: pka_results/gpr_model.json
+Method: r2SCAN-3c
+
+Compound                Step                         q   pKa_calc   pKa_exp   pKa_pred       σ     err
+────────────────────────────────────────────────────────────────────────────────────────────────────
+aniline                 Anilinium→Aniline            1     198.48     4.600      5.640   1.556  -1.040
+maleic_acid             H2Maleic→HMaleate_m          0     199.32     1.830      2.021   1.405  -0.191
+maleic_acid             HMaleate_mon→Maleate_di     -1     217.64     6.070      7.596   1.550  -1.526
+resorcinol              Resorcinol→Resorcinol        0     215.93     9.302      9.821   1.058  -0.519
+resorcinol              Resorcinolat→Resorcinol     -1     222.56    11.100      9.902   1.745  +1.198
+tetrazole               Tetrazole→Tetrazolat         0     204.91     4.890      8.372   2.280  -3.482
+theophylline            Theophylline→Theophylli      0     214.84     8.770     10.798   1.514  -2.028
+
+Test RMSE: 1.748   MAE: 1.426

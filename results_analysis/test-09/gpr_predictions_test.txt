@@ -1,0 +1,19 @@
+GPR Test Set Predictions
+Model: pka_results/gpr_model.json
+Method: r2SCAN-3c
+
+Compound                Step                           q   pKa_calc   pKa_exp   pKa_pred       σ     err
+────────────────────────────────────────────────────────────────────────────────────────────────────
+4_nitroaniline          4NitroAnilin→4NitroAnil      1     191.32     1.000      5.772   2.761  -4.772
+acetylacetone           Acetylaceton→Acetylacet      0     212.19     8.900      7.450   1.517  +1.450
+benzylamine             Benzylammoni→Benzylamin      1     206.09     9.340      9.251   1.454  +0.089
+cytosine                H2Cytosine→Cytosine          1     204.97     4.600      6.311   1.397  -1.711
+cytosine                Cytosine→Cytosinate          0     214.92    12.160      9.669   1.615  +2.491
+lactic_acid             LacticAcid→Lactate           0     206.37     3.860      3.684   1.354  +0.176
+methylphosphonic_acid   MePhosphonic→MePhosphon      0     206.05     2.380      3.368   1.890  -0.988
+methylphosphonic_acid   MePhosphonat→MePhosphon     -1     221.96     7.740      8.327   2.169  -0.587
+trifluoroacetic_acid    TFA→TFA_anion                0     198.73     0.520      2.640   1.675  -2.120
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Test RMSE: 2.105   MAE: 1.598   N=9 steps with experimental pKa
+Training LOO RMSE: 1.941   LOO MAE: 1.145

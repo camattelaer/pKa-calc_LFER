@@ -1,0 +1,18 @@
+GPR Test Set Predictions
+Model: pka_results/gpr_model.json
+Method: r2SCAN-3c
+
+Compound                Step                         q   pKa_calc   pKa_exp   pKa_pred       σ     err
+────────────────────────────────────────────────────────────────────────────────────────────────────
+adenine                 AdeH_cation→Adenine          1     201.31     4.220      4.469   1.155  -0.249
+adenine                 Adenine→Adenine_an           0     212.36     9.800      7.840   2.052  +1.960
+leucine                 LeuH2_cation→Leu_zwitte      1     200.90     2.329      2.265   1.201  +0.064
+leucine                 Leu_zwitteri→Leu_anion       0     211.27     9.744      9.590   1.159  +0.154
+malic_acid              H2Malic→HMalate              0     200.23     3.459      2.436   1.627  +1.023
+malic_acid              HMalate→Malate2m            -1     215.65     5.097      5.889   1.230  -0.792
+proline                 ProH2_cation→Pro_zwitte      1     200.73     1.952      1.648   1.196  +0.304
+proline                 Pro_zwitteri→Pro_anion       0     213.56    10.640      9.575   1.422  +1.065
+succinic_acid           H2Succinate→HSuccinate       0     203.75     4.207      2.560   1.046  +1.647
+succinic_acid           HSuccinate→Succinate2       -1     217.37     5.636      6.084   1.335  -0.448
+
+Test RMSE: 0.987   MAE: 0.771

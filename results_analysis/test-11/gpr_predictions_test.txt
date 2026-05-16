@@ -1,0 +1,18 @@
+GPR Test Set Predictions
+Model: pka_results/gpr_model.json
+Method: r2SCAN-3c
+
+Compound                Step                           q   pKa_calc   pKa_exp   pKa_pred       σ     err
+────────────────────────────────────────────────────────────────────────────────────────────────────
+cysteamine              Cysteammoniu→Cysteamine      1     205.62     8.270      6.401   3.302  +1.869
+cysteamine              Cysteamine_S→Cysteamine      0     215.15    10.750      8.419   3.302  +2.331
+glutarimide             Glutarimide→Glutarimid       0     217.87     9.700      9.283   3.302  +0.417
+isonicotinic_acid       IsonicotH2→Isonicotin        1     200.20     1.840      5.706   3.302  -3.866
+isonicotinic_acid       Isonicotinic→Isonicotin      0     205.60     4.860      5.380   3.302  -0.520
+phenylphosphonic_acid   PhPhonicAcid→PhPhonate_      0     203.69     1.830      4.773   3.302  -2.943
+phenylphosphonic_acid   PhPhonate_mo→PhPhonate_     -1     220.57     7.070      8.618   3.302  -1.548
+phthalimide             Phthalimide→Phthalimid       0     212.20     8.300      7.479   3.302  +0.821
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Test RMSE: 2.123   MAE: 1.789   N=8 steps with experimental pKa
+Training LOO RMSE: 1.882   LOO MAE: 1.177

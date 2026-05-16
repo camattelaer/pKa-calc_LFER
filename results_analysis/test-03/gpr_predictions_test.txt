@@ -1,0 +1,13 @@
+GPR Test Set Predictions
+Model: pka_results/gpr_model.json
+Method: r2SCAN-3c
+
+Compound                Step                         q   pKa_calc   pKa_exp   pKa_pred       σ     err
+────────────────────────────────────────────────────────────────────────────────────────────────────
+arginine                ArgH3_dicati→ArgH2_zwit      2     198.12     2.170      2.431   1.299  -0.261
+arginine                ArgH2_zwitte→ArgH_neutr      1     211.12     9.040      8.581   2.064  +0.459
+arginine                ArgH_neutral→Arg_anion       0     214.95    12.480      7.308   3.848  +5.172
+guanidine               GuanidiniumH→Guanidine       1     213.71    13.600      8.435   3.035  +5.165
+salicylic_acid          SalicylicAci→Salicylate      0     204.47     2.970      3.482   0.946  -0.512
+
+Test RMSE: 3.285   MAE: 2.314

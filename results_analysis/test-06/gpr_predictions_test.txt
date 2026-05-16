@@ -1,0 +1,15 @@
+GPR Test Set Predictions
+Model: pka_results/gpr_model.json
+Method: r2SCAN-3c
+
+Compound                Step                         q   pKa_calc   pKa_exp   pKa_pred       σ     err
+────────────────────────────────────────────────────────────────────────────────────────────────────
+4_fluorophenol          4FPhenol→4FPhenoxid          0     215.96     9.890     10.013   1.049  -0.123
+barbituric_acid         Barbituric→Barbiturat        0     211.09     4.010      8.136   1.266  -4.126
+beta_alanine            BetaAla_cati→BetaAla_zw      1     203.93     3.550      3.216   1.303  +0.334
+beta_alanine            BetaAla_zwit→BetaAla_an      0     212.46    10.240     10.701   1.153  -0.461
+catechol                Catechol→Catecholat          0     212.56     9.230      8.607   1.076  +0.623
+catechol                Catecholate_→Catecholat     -1     228.21    13.000     12.960   1.458  +0.040
+pyridine                Pyridinium→Pyridine          1     202.66     5.230      5.096   1.133  +0.134
+
+Test RMSE: 1.593   MAE: 0.834

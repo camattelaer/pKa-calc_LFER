@@ -1,0 +1,23 @@
+GPR Test Set Predictions
+Model: pka_results/gpr_model.json
+Method: r2SCAN-3c
+
+Compound                Step                           q   pKa_calc   pKa_exp   pKa_pred       σ     err
+────────────────────────────────────────────────────────────────────────────────────────────────────
+captopril               Captopril_ca→Captopril_      1     204.51     3.700      2.664   1.098  +1.036
+captopril               Captopril_zw→Captopril_      0     209.55     9.800      9.168   1.212  +0.632
+lamivudine              LamivudineH→Lamivudine       1     201.83     4.300      1.883   1.743  +2.417
+levodopa                LDopa_cat→LDopa_zwit         1     200.61     2.320      2.201   0.945  +0.119
+levodopa                LDopa_zwit→LDopa_mono        0     211.10     8.720      9.917   0.943  -1.197
+levodopa                LDopa_mono→LDopa_ph1        -1     213.12     9.960      6.009   1.449  +3.951
+levodopa                LDopa_ph1→LDopa_ph2         -2     228.59    13.100     12.447   2.718  +0.653
+losartan                LosartanH→Losartan           0     205.50     3.960      3.458   2.530  +0.502
+methotrexate            MTX_neutral→MTX_mono         0     209.11     4.800      4.300   4.615  +0.500
+methotrexate            MTX_mono→MTX_di             -1     209.02     5.620      7.945   3.413  -2.325
+oseltamivir             OseltamivirH→Oseltamivi      1     206.85     7.750      8.555   1.036  -0.805
+sildenafil              SildenafilH→Sildenafil       1     201.27     5.970      8.502   1.566  -2.532
+valsartan               Valsartan→Valsartan_         0     202.28     3.960      2.655   2.808  +1.305
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Test RMSE: 1.742   MAE: 1.383   N=13 steps with experimental pKa
+Training LOO RMSE: 2.125   LOO MAE: 1.258

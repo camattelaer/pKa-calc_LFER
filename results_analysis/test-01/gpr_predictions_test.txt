@@ -1,0 +1,34 @@
+GPR Test Set Predictions
+Model: pka_results/gpr_model.json
+Method: r2SCAN-3c
+
+Compound                Step                         q   pKa_calc   pKa_exp   pKa_pred       σ     err
+────────────────────────────────────────────────────────────────────────────────────────────────────
+carbonic_acid           H2CO3→Bicarbonat             0     205.09     6.350      1.167   1.214  +5.183
+carbonic_acid           Bicarbonate→Carbonate       -1     227.73    10.330      6.193   3.561  +4.137
+citric_acid             H3Citrate→H2Citrate_         0     207.04     3.130      3.753   0.901  -0.623
+citric_acid             H2Citrate_mi→HCitrate_2     -1     200.79     4.760      5.710   5.302  -0.950
+citric_acid             HCitrate_2mi→Citrate_3m     -2     218.90     6.400      0.000   7.325  +6.400
+dopamine                DopamineH_ca→Dopamine_n      1     207.26     8.930      9.871   1.153  -0.941
+dopamine                Dopamine_neu→Dopamine_m      0     213.23    10.360      8.403   0.765  +1.957
+dopamine                Dopamine_mon→Dopamine_d     -1     228.09    13.100     10.760   3.010  +2.340
+glutamic_acid           H3Glu_cation→H2Glu_zwit      1     200.96     2.100      1.503   2.837  +0.597
+glutamic_acid           H2Glu_zwitte→HGlu_anion      0     205.28     4.070      4.003   0.933  +0.067
+glutamic_acid           HGlu_anion→Glu_dianio       -1     216.80     9.470      7.104   4.141  +2.366
+malonic_acid            MalonicAcid→Malonate_m       0     201.78     2.830      0.485   1.591  +2.345
+malonic_acid            Malonate_mon→Malonate_d     -1     216.35     5.690      7.276   3.114  -1.586
+nicotinic_acid          NicotinicH2_→NicotinicH      1     199.77     2.050      5.613   1.556  -3.563
+nicotinic_acid          NicotinicH_n→Nicotinate      0     205.93     4.790      4.335   0.953  +0.455
+oxalic_acid             OxalicAcid→HydroOxala        0     199.28     1.250      0.567   1.957  +0.683
+oxalic_acid             HydroOxalate→Oxalate        -1     213.06     4.270      6.069   3.629  -1.799
+phosphoric_acid         H3PO4→H2PO4_minu             0     202.22     2.150     -0.787   2.303  +2.937
+phosphoric_acid         H2PO4_minus→HPO4_2minu      -1     218.74     7.200      2.044   4.381  +5.156
+phosphoric_acid         HPO4_2minus→PO4_3minus      -2     234.66    12.350      0.000   7.325  +12.350
+piperazine              PiperazineH2→Piperazine      2     201.31     5.330      6.423   2.751  -1.093
+piperazine              PiperazineH_→Piperazine      1     207.95     9.730     10.712   1.002  -0.982
+threonine               ThrH2_cation→Thr_zwitte      1     200.50     2.090      1.037   3.038  +1.053
+threonine               Thr_zwitteri→Thr_anion       0     209.21     9.100      9.964   0.881  -0.864
+tryptophan              TrpH2_cation→TrpH_neutr      1     201.41     2.380      1.803   2.750  +0.577
+tryptophan              TrpH_neutral→Trp_anion       0     210.79     9.390      9.594   0.961  -0.204
+
+Test RMSE: 3.503   MAE: 2.354
