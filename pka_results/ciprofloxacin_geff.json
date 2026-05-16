@@ -1,0 +1,30 @@
+{
+  "compound": "ciprofloxacin",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "CiproH2_cation",
+      "charge": 1,
+      "n_protons": 2,
+      "G_eff_Eh": -1148.4089486066598,
+      "n_struct_found": 18,
+      "n_struct_used": 6
+    },
+    {
+      "name": "CiproH_zwitterion",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -1147.9443855734908,
+      "n_struct_found": 27,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Cipro_anion",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -1147.4947877399925,
+      "n_struct_found": 36,
+      "n_struct_used": 10
+    }
+  ]
+}

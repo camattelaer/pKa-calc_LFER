@@ -1,0 +1,22 @@
+{
+  "compound": "diethylamine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "DiEtAmmonium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -214.06351757489722,
+      "n_struct_found": 16,
+      "n_struct_used": 10
+    },
+    {
+      "name": "DiEtAmine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -213.60852049043422,
+      "n_struct_found": 12,
+      "n_struct_used": 7
+    }
+  ]
+}

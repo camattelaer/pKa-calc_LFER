@@ -1,0 +1,265 @@
+========================================================================
+  pKa GPR Calibration Report
+  DFT method: r2SCAN-3c / CPCM(Water) + GFN2-xTB RRHO
+========================================================================
+
+  Model: Gaussian Process Regression
+  Feature mode:  full
+  Features:      ['δpKa_calc', 'q_acid', 'ΔE_CPCM', 'ΔBO_XC', 'ΔBO_ring', 'q_CHELPG_site']
+
+  Training points:  214 total
+    Full descriptors: 214
+    Partial only:     1
+
+  Kernel amplitude:  2.8885 pKa
+  Noise level:       0.5364 pKa
+  Length scales:     ['0.997', '1.629', '0.557', '0.656', '0.968', '6.630']
+
+  LOO RMSE:  1.3975 pKa units
+  LOO MAE:   0.8766 pKa units
+
+  Physical interpretation of descriptors:
+    δpKa_calc     ls=0.997  ACTIVE                        DFT deprotonation energy (charge-state centred); primary driver
+    q_acid        ls=1.629  ACTIVE                        Born solvation q² baseline; separates charge-state families
+    ΔE_CPCM       ls=0.557  ACTIVE                        
+    ΔBO_XC        ls=0.656  ACTIVE                        
+    ΔBO_ring      ls=0.968  ACTIVE                        
+    q_CHELPG_site  ls=6.630  ACTIVE                        
+
+  Active features: 6/6 (length scale < 9.5; wall-bound features ls→10.0 are negligible)
+
+────────────────────────────────────────────────────────────────────────
+  Training data with predictions:
+
+              Compound                  Step    q   pKa_calc   pKa_exp   pKa_pred      σ      err
+  ────────────────────────────────────────────────────────────────────────────────────
+  2_4_6_trimethylpyridine  CollidineH→Collidine   +1     207.22     7.430      7.629  0.905   +0.199
+     2_4_dinitrophenol     2_4_DNP→2_4_DNP_a   +0     203.90     3.960      4.265  0.980   +0.305
+    2_6_dimethylphenol  2_6_DiMePh→2_6_DiMeP   +0     219.04    10.620     10.552  1.048   -0.068
+  2_6_dimethylpyridine    LutidineH→Lutidine   +1     205.89     6.720      7.440  0.864   +0.720
+  2_6_dinitrobenzoic_acid    2_6_DNBA→2_6_DNBA_   +0     200.77     1.140      1.207  0.972   +0.067
+     2_6_dinitrophenol     2_6_DNP→2_6_DNP_a   +0     203.40     3.710      3.822  1.006   +0.112
+       2_aminopyridine  2AminoPyri→2AminoPyr   +1     204.66     6.710      6.950  0.919   +0.240
+  2_chlorobenzoic_acid  2ClBenzoic→2ClBenzoa   +0     205.46     2.890      3.136  0.946   +0.246
+      2_chloropyridine  2ClPyridin→2ClPyridi   +1     196.38     0.720      0.743  1.050   +0.023
+     2_methylimidazole  2MeImidazo→2MeImidaz   +1     204.78     7.860      6.889  0.809   -0.971
+         2_nitrophenol  2NitroPhen→2NitroPhe   +0     210.67     7.220      7.374  0.947   +0.154
+    3_4_dimethylphenol  3_4_DiMePh→3_4_DiMeP   +0     217.62    10.360     10.293  0.867   -0.067
+  3_5_dinitrobenzoic_acid    3_5_DNBA→3_5_DNBA_   +0     203.13     2.820      3.140  0.929   +0.320
+     3_5_dinitrophenol     3_5_DNP→3_5_DNP_a   +0     208.05     6.690      6.614  0.998   -0.076
+      3_chloropyridine  3ClPyridin→3ClPyridi   +1     198.77     2.840      3.102  1.032   +0.262
+  3_mercaptopropionic_acid  3MPA_anion→3MPA_dian   -1     217.07    10.840     10.641  1.022   -0.199
+        3_nitroaniline  3NitroAnil→3NitroAni   +1     194.38     2.470      2.501  0.994   +0.031
+         3_nitrophenol  3NitroPhen→3NitroPhe   +0     212.16     8.360      8.630  0.886   +0.270
+   4_aminobenzoic_acid    PABA_cat→PABA_zwit   +1     205.56     2.410      2.442  0.980   +0.032
+   4_aminobenzoic_acid   PABA_zwit→PABA_anio   +0     198.94     4.870      4.892  1.035   +0.022
+       4_aminopyridine  4AminoPyri→4AminoPyr   +1     208.09     9.110      8.513  0.986   -0.597
+       4_chloroaniline  4ClAnilini→4ClAnilin   +1     197.01     3.980      3.712  0.907   -0.268
+        4_chlorophenol   4ClPhenol→4ClPhenox   +0     214.67     9.380      9.293  0.850   -0.087
+    4_chlorothiophenol  4ClThiophe→4ClThioph   +0     207.66     6.130      6.133  0.884   +0.003
+   4_cyanobenzoic_acid  4CNBenzoic→4CNBenzoa   +0     205.79     3.550      4.145  0.798   +0.595
+         4_cyanophenol   4CNPhenol→4CNPhenox   +0     210.01     7.950      8.222  0.893   +0.272
+     4_cyanothiophenol  4CNThiophe→4CNThioph   +0     204.88     5.700      5.527  0.937   -0.173
+        4_fluorophenol    4FPhenol→4FPhenoxi   +0     215.96     9.890      9.902  0.826   +0.012
+  4_hydroxybenzoic_acid    H2ParaHBA→HParaHBA   +0     209.35     4.540      4.803  0.807   +0.263
+  4_hydroxybenzoic_acid    HParaHBA→ParaHBA_d   -1     216.04     9.460      9.525  1.045   +0.065
+      4_methoxyaniline  4MeOAnilin→4MeOAnili   +1     200.18     5.290      5.908  0.914   +0.618
+  4_methoxybenzoic_acid  4MeOBenzoi→4MeOBenzo   +0     208.99     4.470      4.896  0.878   +0.426
+       4_methoxyphenol  4MeOPhenol→4MeOPheno   +0     217.53    10.210     10.173  0.850   -0.037
+   4_methoxythiophenol  4MeOThioph→4MeOThiop   +0     209.32     6.780      6.748  0.858   -0.032
+       4_methylaniline  4MeAnilini→4MeAnilin   +1     198.38     5.080      6.227  2.612   +1.147
+     4_methylimidazole  4MeImidazo→4MeImidaz   +1     205.52     7.690      7.456  0.833   -0.234
+    4_methylthiophenol  4MeThiophe→4MeThioph   +0     209.26     6.820      6.826  0.834   +0.006
+        4_nitroaniline  4NitroAnil→4NitroAni   +1     191.32     1.000      1.074  1.043   +0.074
+         4_nitrophenol  4NitroPhen→4NitroPhe   +0     207.08     7.150      6.690  0.923   -0.460
+     4_nitrothiophenol  4NitroThio→4NitroThi   +0     203.13     4.710      4.630  0.957   -0.080
+    4_tert_butylphenol  4tBuPhenol→4tBuPheno   +0     217.02    10.230      9.817  0.826   -0.413
+  5_chlorobenzimidazole        5ClbimH→5Clbim   +1     201.40     4.800      4.842  0.985   +0.042
+  5_methoxybenzimidazole      5MeObimH→5MeObim   +1     203.40     5.910      5.837  0.989   -0.073
+  5_methylbenzimidazole        5MebimH→5Mebim   +1     203.31     5.840      5.813  0.979   -0.027
+  5_nitrobenzimidazole  5NitrobimH→5Nitrobim   +1     198.98     3.700      3.804  1.038   +0.104
+           acetic_acid  AceticAcid→Acetate_A   +0     210.57     4.756      4.970  0.872   +0.214
+  acetohydroxamic_acid     AcetoHA→AcetoHAan   +0     214.22     9.400      9.536  1.037   +0.136
+         acetylacetone  Acetylacet→Acetylace   +0     212.19     8.900      8.799  0.987   -0.101
+               adenine    AdeH_catio→Adenine   +1     201.31     4.220      4.357  0.927   +0.137
+               adenine     Adenine→Adenine_a   +0     212.36     9.800      9.860  1.003   +0.060
+               alanine  Alanine_zw→Alanine_a   +0     231.43     9.870      9.961  1.013   +0.091
+            amlodipine  Amlodipine→Amlodipin   +1     202.31     9.260      7.796  0.930   -1.464
+           amoxicillin  AmoxH2_cat→AmoxH_zwi   +1     207.51     2.400      2.622  0.999   +0.222
+           amoxicillin  AmoxH_zwit→Amox_neut   +0     202.26     7.490      7.282  1.016   -0.208
+           amoxicillin  Amox_neutr→Amox_dian   -1     216.05     9.630      9.583  1.045   -0.047
+               aniline     Anilinium→Aniline   +1     198.48     4.600      4.276  0.889   -0.324
+      anthranilic_acid  Anthranili→Anthranil   +1     199.63     2.050      2.079  1.019   +0.029
+      anthranilic_acid  Anthranili→Anthranil   +0     204.84     4.790      5.093  1.023   +0.303
+              arginine  ArgH3_dica→ArgH2_zwi   +2     198.21     2.170      2.191  1.026   +0.021
+              arginine  ArgH2_zwit→ArgH_neut   +1     208.44     9.040      9.046  1.044   +0.006
+              arginine  ArgH_neutr→Arg_anion   +0     217.69    12.480     12.389  1.064   -0.091
+         aspartic_acid   Asp_zwitte→AspMinus   +0     205.86     3.650      4.113  1.025   +0.463
+               aspirin    AspirinH→Aspirinat   +0     212.60     3.500      4.070  1.032   +0.570
+              atenolol  AtenololH_→Atenolol_   +1     210.97     9.600      9.759  0.882   +0.159
+       barbituric_acid  Barbituric→Barbitura   +0     211.09     4.010      4.507  1.025   +0.497
+         benzimidazole  Benzimidaz→Benzimida   +1     202.72     5.530      5.411  0.846   -0.119
+          benzoic_acid   BenzoicAci→Benzoate   +0     207.59     4.200      3.946  0.794   -0.254
+           benzylamine  Benzylammo→Benzylami   +1     206.09     9.340      8.942  0.823   -0.398
+          beta_alanine  BetaAla_ca→BetaAla_z   +1     203.93     3.550      3.412  1.023   -0.138
+          beta_alanine  BetaAla_zw→BetaAla_a   +0     212.46    10.240     10.292  0.920   +0.052
+      bromoacetic_acid  Bromoaceti→Bromoacet   +0     205.01     2.900      2.840  0.840   -0.060
+             captopril  Captopril_→Captopril   +1     204.51     3.700      3.605  1.039   -0.095
+             captopril  Captopril_→Captopril   +0     209.55     9.800      9.881  1.035   +0.081
+              catechol    Catechol→Catechola   +0     212.56     9.230      9.208  1.013   -0.022
+              catechol  Catecholat→Catechola   -1     228.21    13.000     12.935  1.021   -0.065
+            cetirizine       CetH2+→Cet_zwit   +1     204.23     2.200      2.376  1.064   +0.176
+            cetirizine      Cet_zwit→Cet_ani   +0     211.35     8.000      7.226  0.915   -0.774
+     chloroacetic_acid  Chloroacet→Chloroace   +0     206.42     2.870      3.617  0.784   +0.747
+        chlorpromazine  Chlorproma→Chlorprom   +1     208.47     9.300      9.288  0.921   -0.012
+         ciprofloxacin  CiproH2_ca→CiproH_zw   +1     213.68     6.090      6.142  1.058   +0.052
+         ciprofloxacin  CiproH_zwi→Cipro_ani   +0     206.80     8.740      8.662  1.055   -0.078
+           citric_acid   H3Citrate→H2Citrate   +0     207.01     3.130      3.769  0.896   +0.639
+           citric_acid  H2Citrate_→HCitrate_   -1     200.92     4.760      4.823  1.063   +0.063
+           citric_acid  HCitrate_2→Citrate_3   -2     218.65     6.400      6.409  1.063   +0.009
+            creatinine  Creatinine→Creatinin   +0     218.68     4.830      5.056  1.063   +0.226
+       cyclohexylamine  Cyclohexyl→Cyclohexy   +1     208.04    10.640     10.740  0.977   +0.100
+            cysteamine  Cysteammon→Cysteamin   +1     205.62     8.270      8.880  0.877   +0.610
+            cysteamine  Cysteamine→Cysteamin   +0     215.15    10.750     10.588  0.874   -0.162
+              cysteine  Cysteine_z→Cysteinat   +0     210.04     8.140      8.415  0.927   +0.275
+              cytosine   H2Cytosine→Cytosine   +1     204.97     4.600      4.933  1.002   +0.333
+              cytosine    Cytosine→Cytosinat   +0     214.92    12.160     11.810  1.005   -0.350
+   dichloroacetic_acid  Dichloroac→Dichloroa   +0     202.55     1.480      1.846  0.846   +0.366
+            diclofenac  Diclofenac→Diclofena   +0     207.27     4.150      3.869  0.814   -0.281
+          diethylamine  DiEtAmmoni→DiEtAmine   +1     209.28    10.930     10.886  0.800   -0.044
+   difluoroacetic_acid           DFA→DFA_ani   +0     201.95     1.240      1.292  0.874   +0.052
+         dimethylamine  Dimethylam→Dimethyla   +1     208.78    10.731     10.741  0.854   +0.010
+              dopamine  DopamineH_→Dopamine_   +1     207.21     8.930      9.161  0.846   +0.231
+              dopamine  Dopamine_n→Dopamine_   +0     213.21    10.360      9.748  0.866   -0.612
+              dopamine  Dopamine_m→Dopamine_   -1     228.04    13.100     13.040  1.021   -0.060
+           ethanethiol  Ethanethio→Ethanethi   +0     215.34    10.610     10.497  0.823   -0.113
+            ethylamine  Ethylammon→Ethylamin   +1     207.89    10.636     10.514  0.816   -0.122
+       ethylenediamine    H2en2plus→Hen1plus   +2     203.12     6.850      6.733  1.049   -0.117
+     fluoroacetic_acid  Fluoroacet→Fluoroace   +0     205.85     2.590      3.148  0.808   +0.558
+            fluoxetine  Fluoxetine→Fluoxetin   +1     207.74    10.050      9.682  0.921   -0.368
+           formic_acid  FormicAcid→Formate_H   +0     207.79     3.751      3.698  0.957   -0.053
+            furosemide  Furosemide→Furosemid   +0     205.11     3.800      3.765  1.017   -0.035
+            furosemide  Furosemide→Furosemid   -1     218.22     9.900      9.760  1.044   -0.140
+         glutamic_acid  H3Glu_cati→H2Glu_zwi   +1     200.79     2.100      2.205  0.777   +0.105
+         glutamic_acid  H2Glu_zwit→HGlu_anio   +0     205.47     4.070      4.339  0.951   +0.269
+         glutamic_acid  HGlu_anion→Glu_diani   -1     216.78     9.470      9.719  1.016   +0.249
+           glutarimide  Glutarimid→Glutarimi   +0     217.87     9.700      9.739  1.035   +0.039
+               glycine  Glycine_zw→Glycine_a   +0     230.30     9.600      9.686  1.012   +0.086
+         glycolic_acid  GlycolicAc→Glycolate   +0     206.28     3.831      3.445  0.807   -0.386
+             guanidine  Guanidiniu→Guanidine   +1     213.72    13.600     13.398  1.064   -0.202
+             histidine       H3His2+→H2His1+   +2     196.52     1.820      1.844  1.026   +0.024
+             histidine         H2His1+→HHis0   +1     205.75     6.000      7.125  0.885   +1.125
+             histidine           HHis0→His1-   +0     209.53     9.170      9.363  0.858   +0.193
+          homocysteine  HomoCys_zw→HomoCys_t   +0     207.65    10.000      9.443  0.997   -0.557
+         hydroxylamine  Hydroxylam→Hydroxyla   +1     198.85     6.000      5.985  1.044   -0.015
+             ibuprofen  IbuprofenH→Ibuprofen   +0     208.90     4.910      4.414  0.771   -0.496
+             imidazole  Imidazoliu→Imidazole   +1     204.25     6.950      6.589  0.880   -0.361
+     isonicotinic_acid  IsonicotH2→Isonicoti   +1     200.20     1.840      2.571  0.877   +0.731
+     isonicotinic_acid  Isonicotin→Isonicoti   +0     205.60     4.860      3.637  0.768   -1.223
+           lactic_acid    LacticAcid→Lactate   +0     206.37     3.860      3.544  0.823   -0.316
+            lamivudine  Lamivudine→Lamivudin   +1     201.83     4.300      4.234  0.948   -0.066
+               leucine  LeuH2_cati→Leu_zwitt   +1     200.90     2.329      2.384  0.888   +0.055
+               leucine  Leu_zwitte→Leu_anion   +0     211.27     9.744      9.835  0.834   +0.091
+              levodopa   LDopa_cat→LDopa_zwi   +1     200.61     2.320      2.152  0.784   -0.168
+              levodopa  LDopa_zwit→LDopa_mon   +0     211.10     8.720      8.808  1.025   +0.088
+              levodopa  LDopa_mono→LDopa_ph1   -1     213.12     9.960      9.764  1.040   -0.196
+              levodopa   LDopa_ph1→LDopa_ph2   -2     228.59    13.100     13.053  1.063   -0.047
+             lidocaine  LidocaineH→Lidocaine   +1     205.37     7.900      8.033  1.033   +0.133
+              losartan    LosartanH→Losartan   +0     205.50     3.960      4.399  0.976   +0.439
+                lysine  H2Lys2plus→HLys1plus   +2     199.61     2.200      2.248  1.063   +0.048
+           maleic_acid    H2Maleic→HMaleate_   +0     199.32     1.830      1.778  1.017   -0.052
+           maleic_acid  HMaleate_m→Maleate_d   -1     217.64     6.070      6.133  1.051   +0.063
+            malic_acid       H2Malic→HMalate   +0     200.23     3.459      2.840  0.987   -0.619
+            malic_acid      HMalate→Malate2m   -1     215.65     5.097      5.153  0.966   +0.056
+          malonic_acid  MalonicAci→Malonate_   +0     202.04     2.830      2.608  0.993   -0.222
+          malonic_acid  Malonate_m→Malonate_   -1     216.07     5.690      5.571  1.014   -0.119
+             metformin  MetforminH→Metformin   +2     189.38     2.800      2.722  1.063   -0.078
+             metformin  MetforminH→Metformin   +1     186.40    11.500     11.361  1.061   -0.139
+    methanesulfonamide  MeSulfonam→MeSulfona   +0     216.22    10.100     10.198  1.034   +0.098
+          methanethiol  Methanethi→Methaneth   +0     215.44    10.330     10.419  0.900   +0.089
+          methotrexate   MTX_neutra→MTX_mono   +0     209.11     4.800      4.753  1.032   -0.047
+          methotrexate       MTX_mono→MTX_di   -1     209.02     5.620      5.701  1.062   +0.081
+    methoxyacetic_acid  Methoxyace→Methoxyac   +0     208.37     3.570      3.780  0.903   +0.210
+           methylamine  Methylammo→Methylami   +1     271.96    10.660     10.890  1.064   +0.230
+  methylphosphonic_acid  MePhosphon→MePhospho   +0     206.05     2.380      2.746  1.001   +0.366
+  methylphosphonic_acid  MePhosphon→MePhospho   -1     221.96     7.740      7.488  1.022   -0.252
+            metoprolol  Metoprolol→Metoprolo   +1     211.34     9.670      9.658  0.920   -0.012
+              morphine  MorphineH2→MorphineH   +1     206.72     8.210      9.303  0.809   +1.093
+              morphine  MorphineH_→Morphine_   +0     216.03     9.510      9.499  1.053   -0.011
+      n_acetylcysteine  NAC_anion_→NAC_diani   -1     208.67     9.520      9.447  1.060   -0.073
+              naproxen    Naproxen→Naproxena   +0     209.32     4.190      4.663  0.817   +0.473
+          n_butylamine   nBuAmmoniu→nBuAmine   +1     207.91    10.770     10.318  0.792   -0.452
+        nicotinic_acid  NicotinicH→Nicotinic   +1     199.77     2.050      2.176  0.887   +0.126
+        nicotinic_acid  NicotinicH→Nicotinat   +0     205.97     4.790      3.819  0.761   -0.971
+         n_propylamine  nPropylamm→nPropylam   +1     214.64    10.530     10.624  1.054   +0.094
+             ornithine  H2Orn2plus→HOrnH1plu   +2     195.62     1.710      1.728  1.063   +0.018
+           oseltamivir  Oseltamivi→Oseltamiv   +1     206.85     7.750      7.987  0.953   +0.237
+           oxalic_acid  OxalicAcid→HydroOxal   +0     199.56     1.250      1.288  0.999   +0.038
+           oxalic_acid    HydroOxala→Oxalate   -1     212.28     4.270      4.441  1.040   +0.171
+         penicillamine  Penicillam→Penicilla   +0     210.07    10.490     10.048  1.042   -0.442
+                phenol      Phenol→Phenoxide   +0     216.32     9.990     10.037  0.890   +0.047
+  phenylphosphonic_acid  PhPhonicAc→PhPhonate   +0     203.69     1.830      1.858  0.977   +0.028
+  phenylphosphonic_acid  PhPhonate_→PhPhonate   -1     220.57     7.070      7.446  1.019   +0.376
+       phosphoric_acid       H3PO4→H2PO4_min   +0     202.32     2.150      1.920  1.003   -0.230
+       phosphoric_acid  H2PO4_minu→HPO4_2min   -1     218.53     7.200      7.543  1.004   +0.343
+       phosphoric_acid  HPO4_2minu→PO4_3minu   -2     234.70    12.350     12.388  1.064   +0.038
+           phthalimide  Phthalimid→Phthalimi   +0     212.20     8.300      8.127  0.976   -0.173
+           picric_acid    PicricAcid→Picrate   +0     197.05     0.380      0.438  1.056   +0.058
+            piperazine  Piperazine→Piperazin   +2     201.34     5.330      5.405  1.047   +0.075
+            piperazine  Piperazine→Piperazin   +1     207.91     9.730     10.094  0.773   +0.364
+            piperidine  Piperidini→Piperidin   +1     208.85    11.120     10.531  0.767   -0.589
+               proline  ProH2_cati→Pro_zwitt   +1     200.73     1.952      2.137  0.849   +0.185
+               proline  Pro_zwitte→Pro_anion   +0     213.56    10.640     10.569  1.010   -0.071
+          propanethiol  Propanethi→Propaneth   +0     215.77    10.650     10.729  0.862   +0.079
+        propanoic_acid  PropanoicA→Propanoat   +0     210.55     4.874      4.950  0.848   +0.076
+           propranolol  Propranolo→Propranol   +1     205.69     9.530      8.853  0.847   -0.677
+              pyridine   Pyridinium→Pyridine   +1     202.66     5.230      5.246  0.956   +0.016
+           pyrrolidine  Pyrrolidin→Pyrrolidi   +1     209.15    11.270     10.860  0.784   -0.410
+               quinine  QuinineH2+→QuinineH+   +2     200.46     4.130      4.182  1.060   +0.052
+               quinine     QuinineH+→Quinine   +1     207.72     8.520      9.168  0.826   +0.648
+          quinuclidine  Quinuclidi→Quinuclid   +1     209.66    10.950     10.769  1.038   -0.181
+            resorcinol  Resorcinol→Resorcino   +0     215.93     9.302      9.990  0.838   +0.688
+            resorcinol  Resorcinol→Resorcino   -1     222.56    11.100     11.050  1.051   -0.050
+             saccharin   Saccharin→Saccharin   +0     202.41     1.600      1.900  1.010   +0.300
+        salicylic_acid  SalicylicA→Salicylat   +0     204.56     2.970      2.940  0.953   -0.030
+                serine  Serine_zwi→Serine_an   +0     187.98     9.210      8.928  1.061   -0.282
+            sertraline  Sertraline→Sertralin   +1     206.80     9.470      9.559  0.859   +0.089
+            sildenafil  Sildenafil→Sildenafi   +1     201.27     5.970      5.823  1.042   -0.147
+         succinic_acid  H2Succinat→HSuccinat   +0     203.75     4.207      3.945  0.976   -0.262
+         succinic_acid  HSuccinate→Succinate   -1     217.37     5.636      5.693  0.996   +0.057
+               taurine  Taurine_ca→Taurine_z   +1     193.04     1.500      1.646  1.057   +0.146
+               taurine  Taurine_zw→Taurine_a   +0     208.80     9.060      8.984  0.881   -0.076
+       tert_butylamine   tBuAmmoniu→tBuAmine   +1     209.33    10.680     10.770  0.899   +0.090
+             tetrazole   Tetrazole→Tetrazola   +0     204.91     4.890      4.436  0.938   -0.454
+          theophylline  Theophylli→Theophyll   +0     214.84     8.770      8.657  0.997   -0.113
+     thioglycolic_acid  Thioglycol→Thioglyco   -1     216.85     9.900      9.741  1.012   -0.159
+       thiolactic_acid  TLA_anion_→TLA_diani   -1     216.70    10.230      9.941  1.001   -0.289
+        thiomalic_acid  Thiomalate→Thiomalat   -1     284.88    10.200     10.274  1.064   +0.074
+            thiophenol  Thiophenol→Thiopheno   +0     208.55     6.520      6.518  0.838   -0.002
+             threonine  ThrH2_cati→Thr_zwitt   +1     199.86     2.090      2.121  0.900   +0.031
+             threonine  Thr_zwitte→Thr_anion   +0     209.41     9.100      8.954  0.816   -0.146
+              tramadol   TramadolH+→Tramadol   +1     206.52     9.410      8.840  0.941   -0.570
+  trichloroacetic_acid           TCA→TCA_ani   +0     199.41     0.700      0.910  0.853   +0.210
+  trifluoroacetic_acid         TFA→TFA_anion   +0     198.73     0.520      0.612  0.926   +0.092
+        trimethylamine  Trimethyla→Trimethyl   +1     207.66     9.800      9.742  0.910   -0.058
+            tryptophan  TrpH2_cati→TrpH_neut   +1     201.41     2.380      2.353  0.835   -0.027
+            tryptophan  TrpH_neutr→Trp_anion   +0     210.70     9.390      9.196  0.863   -0.194
+              tyrosine  Tyrosine_z→Tyrosinat   +0     212.06    10.070      9.624  0.963   -0.446
+             valsartan   Valsartan→Valsartan   +0     202.28     3.960      3.966  1.013   +0.006
+             verapamil  VerapamilH→Verapamil   +1     198.42     8.870      8.801  1.063   -0.069
+              warfarin    Warfarin→Warfarina   +0     204.39     5.080      4.875  1.019   -0.205
+
+────────────────────────────────────────────────────────────────────────
+  Descriptor correlations with correction (pKa_exp - pKa_calc):
+
+    q_acid      :  r = +0.4824
+    Δq_O        :  r = +0.0501
+    Δq_N        :  r = -0.3114
+    Δq_S        :  r = -0.0709
+    Δq_C        :  r = -0.0739
+    ΔE_LUMO     :  r = +0.3697
+    Σ|Δq|       :  r = -0.1198
+    n_heavy     :  r = +0.1188
+    n_O         :  r = -0.1551
+    n_N         :  r = +0.2495
+

@@ -1,0 +1,22 @@
+{
+  "compound": "ethanethiol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Ethanethiol",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -477.91929321756055,
+      "n_struct_found": 3,
+      "n_struct_used": 3
+    },
+    {
+      "name": "Ethanethiolate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -477.4511392239739,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    }
+  ]
+}

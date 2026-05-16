@@ -1,0 +1,22 @@
+{
+  "compound": "dimethylamine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Dimethylammonium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -135.50680156543353,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "Dimethylamine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -135.052897460574,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

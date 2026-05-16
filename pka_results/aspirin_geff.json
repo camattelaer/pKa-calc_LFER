@@ -1,0 +1,22 @@
+{
+  "compound": "aspirin",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "AspirinH",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -648.5035271976105,
+      "n_struct_found": 8,
+      "n_struct_used": 8
+    },
+    {
+      "name": "Aspirinate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -648.0413170369001,
+      "n_struct_found": 3,
+      "n_struct_used": 3
+    }
+  ]
+}

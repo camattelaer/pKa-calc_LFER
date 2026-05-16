@@ -1,0 +1,22 @@
+{
+  "compound": "cysteine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Cysteine_zwitterion",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -721.8137945553503,
+      "n_struct_found": 10,
+      "n_struct_used": 8
+    },
+    {
+      "name": "Cysteinate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -721.3571573775131,
+      "n_struct_found": 4,
+      "n_struct_used": 4
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "compound": "benzimidazole",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Benzimidazolium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -380.15290471839603,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Benzimidazole",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -379.71216767282596,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

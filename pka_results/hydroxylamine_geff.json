@@ -1,0 +1,22 @@
+{
+  "compound": "hydroxylamine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Hydroxylammonium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -132.12116158903666,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "Hydroxylamine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -131.68884361502438,
+      "n_struct_found": 3,
+      "n_struct_used": 2
+    }
+  ]
+}

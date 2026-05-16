@@ -1,0 +1,22 @@
+{
+  "compound": "difluoroacetic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "DFA",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -427.5297323799819,
+      "n_struct_found": 7,
+      "n_struct_used": 7
+    },
+    {
+      "name": "DFA_ani",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -427.09067004442477,
+      "n_struct_found": 3,
+      "n_struct_used": 3
+    }
+  ]
+}

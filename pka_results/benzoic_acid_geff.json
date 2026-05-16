@@ -1,0 +1,22 @@
+{
+  "compound": "benzoic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "BenzoicAcid",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -420.68358100343704,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Benzoate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -420.2322698451008,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    }
+  ]
+}

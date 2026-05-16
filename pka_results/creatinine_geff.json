@@ -1,0 +1,22 @@
+{
+  "compound": "creatinine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Creatinine",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -395.9964657194267,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "Creatininate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -395.5210510000876,
+      "n_struct_found": 3,
+      "n_struct_used": 3
+    }
+  ]
+}

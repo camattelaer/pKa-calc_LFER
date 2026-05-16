@@ -1,0 +1,30 @@
+{
+  "compound": "isonicotinic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "IsonicotH2",
+      "charge": 1,
+      "n_protons": 2,
+      "G_eff_Eh": -437.1653745122665,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "Isonicotinic",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -436.730117219592,
+      "n_struct_found": 2,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Isonicotinate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -436.2831345916091,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "compound": "cetirizine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "CetH2+",
+      "charge": 1,
+      "n_protons": 2,
+      "G_eff_Eh": -1456.7347079008227,
+      "n_struct_found": 116,
+      "n_struct_used": 8
+    },
+    {
+      "name": "Cet_zwit",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -1456.2906897897512,
+      "n_struct_found": 192,
+      "n_struct_used": 5
+    },
+    {
+      "name": "Cet_ani",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -1455.8312083430408,
+      "n_struct_found": 71,
+      "n_struct_used": 9
+    }
+  ]
+}

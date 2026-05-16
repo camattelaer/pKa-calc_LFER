@@ -1,0 +1,22 @@
+{
+  "compound": "homocysteine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "HomoCys_zwitterion",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -759.8848853004052,
+      "n_struct_found": 5,
+      "n_struct_used": 4
+    },
+    {
+      "name": "HomoCys_thiolate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -759.4334456286055,
+      "n_struct_found": 15,
+      "n_struct_used": 9
+    }
+  ]
+}

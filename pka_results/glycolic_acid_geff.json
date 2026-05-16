@@ -1,0 +1,22 @@
+{
+  "compound": "glycolic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "GlycolicAcid",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -304.2429744485033,
+      "n_struct_found": 7,
+      "n_struct_used": 7
+    },
+    {
+      "name": "Glycolate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -303.79451347849704,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

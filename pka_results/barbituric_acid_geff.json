@@ -1,0 +1,22 @@
+{
+  "compound": "barbituric_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Barbituric",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -489.971164671354,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Barbiturate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -489.51224097167636,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    }
+  ]
+}

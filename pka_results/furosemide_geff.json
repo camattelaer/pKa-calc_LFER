@@ -1,0 +1,30 @@
+{
+  "compound": "furosemide",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "FurosemideH2",
+      "charge": 0,
+      "n_protons": 2,
+      "G_eff_Eh": -1807.528283642168,
+      "n_struct_found": 68,
+      "n_struct_used": 10
+    },
+    {
+      "name": "FurosemideH_anion",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -1807.0823621191419,
+      "n_struct_found": 44,
+      "n_struct_used": 9
+    },
+    {
+      "name": "Furosemide_dianion",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -1806.607932122786,
+      "n_struct_found": 48,
+      "n_struct_used": 10
+    }
+  ]
+}

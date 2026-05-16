@@ -1,0 +1,38 @@
+{
+  "compound": "dopamine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "DopamineH_cation",
+      "charge": 1,
+      "n_protons": 3,
+      "G_eff_Eh": -516.8992374742252,
+      "n_struct_found": 15,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Dopamine_neutral",
+      "charge": 0,
+      "n_protons": 2,
+      "G_eff_Eh": -516.4487390363377,
+      "n_struct_found": 37,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Dopamine_mono_anion",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -515.9852003142216,
+      "n_struct_found": 14,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Dopamine_di_anion",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -515.4894232969566,
+      "n_struct_found": 11,
+      "n_struct_used": 10
+    }
+  ]
+}

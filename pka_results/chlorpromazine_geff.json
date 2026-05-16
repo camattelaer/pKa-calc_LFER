@@ -1,0 +1,22 @@
+{
+  "compound": "chlorpromazine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "ChlorpromazineH+",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -1627.0926136922346,
+      "n_struct_found": 17,
+      "n_struct_used": 8
+    },
+    {
+      "name": "Chlorpromazine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -1626.639380996873,
+      "n_struct_found": 67,
+      "n_struct_used": 8
+    }
+  ]
+}

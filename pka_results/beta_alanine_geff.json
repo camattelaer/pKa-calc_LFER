@@ -1,0 +1,30 @@
+{
+  "compound": "beta_alanine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "BetaAla_cation",
+      "charge": 1,
+      "n_protons": 2,
+      "G_eff_Eh": -324.0823406187328,
+      "n_struct_found": 7,
+      "n_struct_used": 7
+    },
+    {
+      "name": "BetaAla_zwitterion",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -323.638979232446,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "BetaAla_anion",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -323.17708280036504,
+      "n_struct_found": 17,
+      "n_struct_used": 9
+    }
+  ]
+}

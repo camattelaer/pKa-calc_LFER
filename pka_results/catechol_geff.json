@@ -1,0 +1,30 @@
+{
+  "compound": "catechol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Catechol",
+      "charge": 0,
+      "n_protons": 2,
+      "G_eff_Eh": -382.5671844783676,
+      "n_struct_found": 4,
+      "n_struct_used": 4
+    },
+    {
+      "name": "Catecholate_m",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -382.10506666880104,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Catecholate_d",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -381.608912886785,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

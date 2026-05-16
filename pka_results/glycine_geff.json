@@ -1,0 +1,22 @@
+{
+  "compound": "glycine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Glycine_zwitterion",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -284.360734739261,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Glycine_anion",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -283.860054089924,
+      "n_struct_found": 4,
+      "n_struct_used": 1
+    }
+  ]
+}

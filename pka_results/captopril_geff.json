@@ -1,0 +1,30 @@
+{
+  "compound": "captopril",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Captopril_cat",
+      "charge": 1,
+      "n_protons": 2,
+      "G_eff_Eh": -1046.8303368853083,
+      "n_struct_found": 182,
+      "n_struct_used": 8
+    },
+    {
+      "name": "Captopril_zwit",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -1046.3857271403688,
+      "n_struct_found": 128,
+      "n_struct_used": 9
+    },
+    {
+      "name": "Captopril_neut",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -1045.9301530698183,
+      "n_struct_found": 177,
+      "n_struct_used": 5
+    }
+  ]
+}

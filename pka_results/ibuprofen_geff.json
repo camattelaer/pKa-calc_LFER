@@ -1,0 +1,22 @@
+{
+  "compound": "ibuprofen",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "IbuprofenH",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -656.3361065606598,
+      "n_struct_found": 27,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Ibuprofen_anion",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -655.8819358411542,
+      "n_struct_found": 13,
+      "n_struct_used": 10
+    }
+  ]
+}

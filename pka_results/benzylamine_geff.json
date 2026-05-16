@@ -1,0 +1,22 @@
+{
+  "compound": "benzylamine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Benzylammonium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -327.17102380085805,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "Benzylamine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -326.72296364936176,
+      "n_struct_found": 5,
+      "n_struct_used": 5
+    }
+  ]
+}

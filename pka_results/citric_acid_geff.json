@@ -1,0 +1,38 @@
+{
+  "compound": "citric_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "H3Citrate",
+      "charge": 0,
+      "n_protons": 3,
+      "G_eff_Eh": -759.9199911979019,
+      "n_struct_found": 174,
+      "n_struct_used": 7
+    },
+    {
+      "name": "H2Citrate_minus",
+      "charge": -1,
+      "n_protons": 2,
+      "G_eff_Eh": -759.4699457951734,
+      "n_struct_found": 106,
+      "n_struct_used": 8
+    },
+    {
+      "name": "HCitrate_2minus",
+      "charge": -2,
+      "n_protons": 1,
+      "G_eff_Eh": -759.0331221219554,
+      "n_struct_found": 53,
+      "n_struct_used": 5
+    },
+    {
+      "name": "Citrate_3minus",
+      "charge": -3,
+      "n_protons": 0,
+      "G_eff_Eh": -758.5577550884307,
+      "n_struct_found": 19,
+      "n_struct_used": 8
+    }
+  ]
+}

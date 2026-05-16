@@ -1,0 +1,22 @@
+{
+  "compound": "chloroacetic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "ChloroaceticAcid",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -688.6177793381486,
+      "n_struct_found": 9,
+      "n_struct_used": 9
+    },
+    {
+      "name": "Chloroacetate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -688.1690167319796,
+      "n_struct_found": 3,
+      "n_struct_used": 3
+    }
+  ]
+}

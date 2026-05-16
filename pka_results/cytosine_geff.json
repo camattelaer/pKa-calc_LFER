@@ -1,0 +1,30 @@
+{
+  "compound": "cytosine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "H2Cytosine",
+      "charge": 1,
+      "n_protons": 2,
+      "G_eff_Eh": -395.27383032415696,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Cytosine",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -394.8282057198967,
+      "n_struct_found": 5,
+      "n_struct_used": 5
+    },
+    {
+      "name": "Cytosinate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -394.360951586493,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

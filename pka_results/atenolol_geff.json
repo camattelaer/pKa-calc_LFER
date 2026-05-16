@@ -1,0 +1,22 @@
+{
+  "compound": "atenolol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "AtenololH_cation",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -881.9207396347097,
+      "n_struct_found": 907,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Atenolol_neutral",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -881.4620811775499,
+      "n_struct_found": 1745,
+      "n_struct_used": 10
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "compound": "arginine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "ArgH3_dication",
+      "charge": 2,
+      "n_protons": 3,
+      "G_eff_Eh": -607.1854401427762,
+      "n_struct_found": 216,
+      "n_struct_used": 6
+    },
+    {
+      "name": "ArgH2_zwitterion",
+      "charge": 1,
+      "n_protons": 2,
+      "G_eff_Eh": -606.7545238134097,
+      "n_struct_found": 75,
+      "n_struct_used": 10
+    },
+    {
+      "name": "ArgH_neutral",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -606.3013689357548,
+      "n_struct_found": 79,
+      "n_struct_used": 3
+    },
+    {
+      "name": "Arg_anion",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -605.8280975451711,
+      "n_struct_found": 387,
+      "n_struct_used": 10
+    }
+  ]
+}

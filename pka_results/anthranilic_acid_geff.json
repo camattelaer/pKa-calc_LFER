@@ -1,0 +1,30 @@
+{
+  "compound": "anthranilic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Anthranilic_cat",
+      "charge": 1,
+      "n_protons": 2,
+      "G_eff_Eh": -476.4538851531316,
+      "n_struct_found": 4,
+      "n_struct_used": 4
+    },
+    {
+      "name": "Anthranilic_zwit",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -476.019881565462,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Anthranilic_anion",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -475.57453577762703,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

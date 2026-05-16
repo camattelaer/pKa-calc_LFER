@@ -1,0 +1,38 @@
+{
+  "compound": "histidine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "H3His2+",
+      "charge": 2,
+      "n_protons": 3,
+      "G_eff_Eh": -549.4611726513532,
+      "n_struct_found": 29,
+      "n_struct_used": 10
+    },
+    {
+      "name": "H2His1+",
+      "charge": 1,
+      "n_protons": 2,
+      "G_eff_Eh": -549.0339344714793,
+      "n_struct_found": 10,
+      "n_struct_used": 4
+    },
+    {
+      "name": "HHis0",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -548.5866251587913,
+      "n_struct_found": 7,
+      "n_struct_used": 6
+    },
+    {
+      "name": "His1-",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -548.1310932555347,
+      "n_struct_found": 14,
+      "n_struct_used": 10
+    }
+  ]
+}

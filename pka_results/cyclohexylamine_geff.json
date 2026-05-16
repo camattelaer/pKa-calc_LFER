@@ -1,0 +1,22 @@
+{
+  "compound": "cyclohexylamine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "CyclohexylammoniumH",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -291.4452046800904,
+      "n_struct_found": 8,
+      "n_struct_used": 2
+    },
+    {
+      "name": "Cyclohexylamine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -290.9929143507547,
+      "n_struct_found": 8,
+      "n_struct_used": 4
+    }
+  ]
+}

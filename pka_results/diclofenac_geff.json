@@ -1,0 +1,22 @@
+{
+  "compound": "diclofenac",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Diclofenac",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -1665.3995006624941,
+      "n_struct_found": 21,
+      "n_struct_used": 9
+    },
+    {
+      "name": "Diclofenacate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -1664.9488849896509,
+      "n_struct_found": 9,
+      "n_struct_used": 3
+    }
+  ]
+}

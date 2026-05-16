@@ -1,0 +1,22 @@
+{
+  "compound": "bromoacetic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "BromoaceticAcid",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -2802.5808498933666,
+      "n_struct_found": 6,
+      "n_struct_used": 6
+    },
+    {
+      "name": "Bromoacetate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -2802.1351489876124,
+      "n_struct_found": 4,
+      "n_struct_used": 4
+    }
+  ]
+}

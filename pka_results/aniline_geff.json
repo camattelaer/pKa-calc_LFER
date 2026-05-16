@@ -1,0 +1,22 @@
+{
+  "compound": "aniline",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Anilinium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -287.89163976108904,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Aniline",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -287.460132378759,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}
