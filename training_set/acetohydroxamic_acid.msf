@@ -1,0 +1,46 @@
+# acetohydroxamic_acid.msf
+# Acetohydroxamic acid (CH3C(=O)NHOH)
+# pKa=9.400 (N-H hydroxamic acid, q=0→-1)
+# Source: Perrin 1981
+# The acidic proton is on N-H (not O-H). Pure H+ loss from N-H:
+# CH3C(=O)NHOH → CH3C(=O)N(OH)- + H+
+# Important metal-chelating FG in drugs (vorinostat, deferiprone class).
+# Fills pKa 9-10 with a completely new N-H pattern adjacent to C=O and OH.
+
+[microstate]
+name         = AcetoHA
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+C      -1.368885      0.207607     -0.177611
+C       0.089155     -0.076556     -0.401853
+O       0.533718     -0.498383     -1.467322
+N       0.895213      0.172405      0.683475
+O       2.245846     -0.224563      0.521900
+H      -1.725399      0.884594     -0.958598
+H      -1.541195      0.679296      0.793921
+H      -1.926786     -0.731526     -0.217858
+H       0.536130      0.132338      1.631492
+H       2.262203     -0.545212     -0.407547
+
+[microstate]
+name         = AcetoHAanion
+functional_group = ammonium
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 9.4
+
+xyz =
+C      -1.295809      0.102703     -0.038802
+C       0.177966     -0.063020      0.224958
+O       0.612020     -0.343244      1.341697
+N       0.889989      0.133861     -0.891080
+O       2.306761     -0.020205     -0.661138
+H      -1.849275     -0.064182      0.890752
+H      -1.637893     -0.630123     -0.776049
+H      -1.511027      1.117700     -0.386726
+H       2.307270     -0.233489      0.296387
+

@@ -1,0 +1,77 @@
+# cytosine.msf
+# Cytosine (4-aminopyrimidin-2(1H)-one)
+# pKa1=4.600 (cytosinium N3+ → cytosine, q=+1→0)
+# pKa2=12.160 (cytosine N1-H → cytosinate, q=0→-1)
+# Source: Perrin 1981
+# First pyrimidine nucleobase in training set (adenine is a purine).
+# Two distinct ionisation steps: aromatic N-base (step1) and lactam N-H
+# (step2). Step2 is a new LFER key — high-pKa N-H in an aromatic lactam.
+# Direct relevance for DNA/RNA protonation state modelling.
+
+[microstate]
+name         = H2Cytosine
+charge       = +1
+multiplicity = 1
+n_protons    = 2
+
+xyz =
+N       2.262297     -0.365388     -0.143990
+C       0.923633     -0.124994     -0.075540
+C       0.408526      1.110206     -0.219618
+C      -1.053803      1.308130     -0.161646
+N      -1.874247      0.343877      0.019563
+C      -1.276594     -1.057962      0.176777
+O      -2.107464     -1.929730      0.334086
+N       0.078519     -1.180974      0.127199
+H       2.878880      0.441731     -0.058107
+H       2.603555     -1.158688      0.394529
+H       1.028163      1.983750     -0.395395
+H      -1.445256      2.329077     -0.282981
+H      -2.885914      0.418539      0.062308
+H       0.459706     -2.117575      0.192946
+
+[microstate]
+name         = Cytosine
+functional_group = imidazolium
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+pka_step     = 4.6
+
+xyz =
+N       1.963167     -0.625354     -0.311018
+C       0.680007     -0.170136     -0.156213
+C       0.332455      1.104871     -0.361855
+C      -1.087109      1.418394     -0.142968
+N      -1.998148      0.581759      0.218395
+C      -1.617051     -0.721453      0.406969
+O      -2.403473     -1.605543      0.733714
+N      -0.293234     -1.041039      0.222912
+H       2.669522      0.105580     -0.291396
+H       2.190870     -1.387130      0.321569
+H       1.007913      1.886985     -0.672916
+H      -1.365746      2.472305     -0.307170
+H      -0.079174     -2.019238      0.339979
+
+[microstate]
+name         = Cytosinate
+functional_group = imidazolium
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 12.16
+
+xyz =
+N       2.015847     -0.490885      0.149659
+C       0.681715     -0.148306      0.111619
+C       0.284486      1.116513     -0.042600
+C      -1.174626      1.187169     -0.055732
+N      -1.970412      0.177611      0.037777
+C      -1.416886     -1.090478      0.169989
+O      -2.176854     -2.053799      0.232637
+N      -0.078064     -1.249421      0.222240
+H       2.496633     -0.117856     -0.660670
+H       2.024502     -1.511134      0.118864
+H       0.913496      1.983415     -0.126253
+H      -1.599837      2.197171     -0.157528
+

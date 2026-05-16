@@ -1,0 +1,38 @@
+# fluoroacetic acid  pKa=2.590
+# Source: NIST
+# Alpha-F: strongest inductive EW halogen (sigma*=+1.10). pKa 2.17 units
+# below acetic acid (4.76). Taft sigma* series anchor: pure sp3 induction.
+
+[microstate]
+name         = FluoroaceticAcid
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+O       1.283968     -0.727960      0.582047
+C       0.522328      0.251940      0.045995
+O       1.049122      1.264235     -0.384849
+C      -0.945983     -0.084824      0.068316
+F      -1.720966      0.899963     -0.471299
+H       2.198806     -0.381175      0.503176
+H      -1.118048     -0.994199     -0.512980
+H      -1.269227     -0.227980      1.102478
+
+[microstate]
+name         = Fluoroacetate
+functional_group = carboxylate
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 2.59
+
+xyz =
+O       1.519326     -0.866698     -0.578632
+C       0.895775      0.073155     -0.001998
+O       1.361766      1.094373      0.585038
+C      -0.629037     -0.081031      0.051383
+F      -1.186137      0.523590     -1.042951
+H      -1.042200      0.391970      0.946735
+H      -0.919494     -1.135359      0.040425
+

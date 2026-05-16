@@ -1,0 +1,50 @@
+# lactic_acid.msf
+# L-Lactic acid (2-hydroxypropanoic acid)
+# pKa=3.860 (COOH → COO-, q=0→-1)
+# Source: NIST
+# Simplest alpha-hydroxy acid. Malic and citric are in training but both
+# polyprotic — lactic acid isolates the alpha-OH inductive effect on a
+# single carboxylate step. pKa=3.86 vs acetic acid (4.76): the OH alpha
+# lowers pKa by 0.9 units through induction (not resonance).
+
+[microstate]
+name         = LacticAcid
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+C      -1.427396     -0.611255     -0.003318
+C      -0.157668      0.038062     -0.523904
+O      -0.413789      1.430430     -0.703368
+C       1.012824     -0.208357      0.429623
+O       1.231491     -1.201456      1.101823
+O       1.882740      0.830764      0.435040
+H      -2.264485     -0.421975     -0.683668
+H      -1.306604     -1.692995      0.111577
+H      -1.707598     -0.194283      0.970729
+H       0.113696     -0.380944     -1.498369
+H       0.464181      1.860237     -0.711272
+H       2.572608      0.551771      1.075108
+
+[microstate]
+name         = Lactate
+functional_group = carboxylate
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 3.86
+
+xyz =
+C      -1.153424     -0.587938     -0.039978
+C       0.198337     -0.044225     -0.452361
+O       0.007413      1.256448     -1.064493
+C       1.161834      0.093544      0.766665
+O       1.322221     -0.932055      1.481845
+O       1.676191      1.252867      0.865065
+H      -1.073542     -1.599319      0.370030
+H      -1.836640     -0.610650     -0.895577
+H      -1.616264      0.053030      0.718787
+H       0.666533     -0.691414     -1.200836
+H       0.647340      1.809712     -0.549147
+

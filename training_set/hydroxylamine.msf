@@ -1,0 +1,37 @@
+# hydroxylamine.msf
+# Hydroxylamine (NH2OH)
+# pKa=6.000 (hydroxylammonium NH3+OH → NH2OH, q=+1→0)
+# Source: Perrin 1981
+# O-substituted ammonium — unique geometry: lone pair competition
+# between N and O, much lower pKa than aliphatic ammonium (6.0 vs ~10.5).
+# Fills the sparse pKa 5-7 region with a new bonding motif.
+
+[microstate]
+name         = Hydroxylammonium
+charge       = +1
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+N      -0.369017      0.023474     -0.002917
+O       0.934730     -0.397130     -0.445705
+H      -0.578816     -0.298603      0.955031
+H      -0.485219      1.048083     -0.048605
+H      -1.091941     -0.385340     -0.618887
+H       1.590262      0.009517      0.161083
+
+[microstate]
+name         = Hydroxylamine
+functional_group = ammonium
+charge       = +0
+multiplicity = 1
+n_protons    = 0
+pka_step     = 6.0
+
+xyz =
+N      -0.434274      0.306680      0.098238
+O       0.796257     -0.430243     -0.138670
+H      -0.925531      0.187474     -0.791588
+H      -0.918458     -0.300919      0.764365
+H       1.482005      0.237009      0.067655
+

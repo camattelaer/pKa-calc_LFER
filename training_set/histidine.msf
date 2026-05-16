@@ -1,0 +1,154 @@
+# histidine.msf — L-Histidine, triprotic amino acid
+#
+# Ionisation ladder (ascending pKa = descending n_protons):
+#   pKa1 = 1.82  α-COOH → α-COO- + H+   (H3His2+ → H2His1+)
+#   pKa2 = 6.00  ImH+   → Im    + H+    (H2His1+ → HHis0)
+#   pKa3 = 9.17  α-NH3+ → α-NH2 + H+    (HHis0   → His1-)
+#
+# n_protons counts titratable H relative to His1- (n=0 reference).
+# His1- retains α-NH2 (2 permanent H on α-N) — these are NOT titratable.
+# The titratable proton at pKa3 is the THIRD H on α-N (NH2 → NH3+).
+#
+# H counts (all states have 82 electrons, multiplicity=1):
+#   His1-   n=0 z=-1:  8H  (5 C-H + 2 α-NH2 + 1 Nε2-H)
+#   HHis0   n=1 z= 0:  9H  +1H (α-NH3+: third H on α-N)
+#   H2His1+ n=2 z=+1: 10H  +1H (Nδ1-H: Im → ImH+)
+#   H3His2+ n=3 z=+2: 11H  +1H (O2-H: COO- → COOH)
+#
+# Permanent H in all states:
+#   Cα-H, 2×Cβ-H, Cδ2-H, Cε1-H, 2×α-NH2-H, Nε2-H  (total 8)
+# Titratable H added stepwise:
+#   n=0→1: H on α-N  (third amine H)
+#   n=1→2: H on Nδ1  (imidazolium)
+#   n=2→3: H on O2   (carboxyl OH)
+
+[microstate]
+name         = His1-
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 9.17
+functional_group = ammonium
+# α-COO- + Im(neutral, Nε2-H) + α-NH2
+# C6H8N3O2 1-  →  electrons = (36+8+21+16) - (-1) = 82  ✓
+
+xyz =
+N    0.2195  -1.1972  -0.7698
+C    0.1040  -0.0064   0.0000
+C    1.4126   0.7602   0.0000
+O    2.4695   0.1266   0.0000
+O    1.4020   1.9945   0.0000
+C   -0.9987   0.9481   0.0000
+C   -0.7026   2.4256   0.0000
+C   -1.8068   3.1896   0.0000
+N   -1.4290   4.4760   0.0000
+C   -0.1556   4.5561   0.0000
+N    0.4055   3.3659   0.0000
+H   -0.2504  -0.5912   0.8489
+H   -1.6323   0.7163   0.8821
+H   -1.6323   0.7163  -0.8821
+H   -2.8345   2.8729   0.0000
+H   -0.9000   5.4500   0.0000
+H    1.1934  -1.6104  -0.7394
+H   -0.2917  -1.9697  -0.2571
+H    1.4139   3.2264   0.0000
+
+[microstate]
+name         = HHis0
+charge       = 0
+multiplicity = 1
+n_protons    = 1
+pka_step     = 6.00
+functional_group = imidazolium
+# α-COO- + Im(neutral, Nε2-H) + α-NH3+   (zwitterion)
+# His1- + 1H on α-N (NH2 → NH3+, pKa3=9.17)
+# C6H9N3O2  →  electrons = (36+9+21+16) - 0 = 82  ✓
+
+xyz =
+N    0.2195  -1.1972  -0.7698
+C    0.1040  -0.0064   0.0000
+C    1.4126   0.7602   0.0000
+O    2.4695   0.1266   0.0000
+O    1.4020   1.9945   0.0000
+C   -0.9987   0.9481   0.0000
+C   -0.7026   2.4256   0.0000
+C   -1.8068   3.1896   0.0000
+N   -1.4290   4.4760   0.0000
+C   -0.1556   4.5561   0.0000
+N    0.4055   3.3659   0.0000
+H   -0.2504  -0.5912   0.8489
+H   -1.6323   0.7163   0.8821
+H   -1.6323   0.7163  -0.8821
+H   -2.8345   2.8729   0.0000
+H   -0.9000   5.4500   0.0000
+H    1.1934  -1.6104  -0.7394
+H   -0.2917  -1.9697  -0.2571
+H    1.4139   3.2264   0.0000
+H   -0.1133  -0.9534  -1.7150
+
+[microstate]
+name         = H2His1+
+charge       = +1
+multiplicity = 1
+n_protons    = 2
+pka_step     = 1.82
+functional_group = carboxylate
+# α-COO- + ImH+(Nδ1-H, Nε2-H) + α-NH3+
+# HHis0 + 1H on Nδ1 (Im → ImH+, pKa2=6.00)
+# C6H10N3O2 +  →  electrons = (36+10+21+16) - 1 = 82  ✓
+
+xyz =
+N    0.2195  -1.1972  -0.7698
+C    0.1040  -0.0064   0.0000
+C    1.4126   0.7602   0.0000
+O    2.4695   0.1266   0.0000
+O    1.4020   1.9945   0.0000
+C   -0.9987   0.9481   0.0000
+C   -0.7026   2.4256   0.0000
+C   -1.8068   3.1896   0.0000
+N   -1.4290   4.4760   0.0000
+C   -0.1556   4.5561   0.0000
+N    0.4055   3.3659   0.0000
+H   -0.2504  -0.5912   0.8489
+H   -1.6323   0.7163   0.8821
+H   -1.6323   0.7163  -0.8821
+H   -2.8345   2.8729   0.0000
+H   -0.9000   5.4500   0.0000
+H    1.1934  -1.6104  -0.7394
+H   -0.2917  -1.9697  -0.2571
+H    1.4139   3.2264   0.0000
+H   -0.1133  -0.9534  -1.7150
+H   -1.9882   5.2810   0.0000
+
+[microstate]
+name         = H3His2+
+charge       = +2
+multiplicity = 1
+n_protons    = 3
+# α-COOH + ImH+(Nδ1-H, Nε2-H) + α-NH3+
+# H2His1+ + 1H on O2 (COO- → COOH, pKa1=1.82)
+# C6H11N3O2 2+  →  electrons = (36+11+21+16) - 2 = 82  ✓
+
+xyz =
+N    0.2195  -1.1972  -0.7698
+C    0.1040  -0.0064   0.0000
+C    1.4126   0.7602   0.0000
+O    2.4695   0.1266   0.0000
+O    1.4020   1.9945   0.0000
+C   -0.9987   0.9481   0.0000
+C   -0.7026   2.4256   0.0000
+C   -1.8068   3.1896   0.0000
+N   -1.4290   4.4760   0.0000
+C   -0.1556   4.5561   0.0000
+N    0.4055   3.3659   0.0000
+H   -0.2504  -0.5912   0.8489
+H   -1.6323   0.7163   0.8821
+H   -1.6323   0.7163  -0.8821
+H   -2.8345   2.8729   0.0000
+H   -0.9000   5.4500   0.0000
+H    1.1934  -1.6104  -0.7394
+H   -0.2917  -1.9697  -0.2571
+H    1.4139   3.2264   0.0000
+H   -0.1133  -0.9534  -1.7150
+H   -1.9882   5.2810   0.0000
+H    1.3936   2.9745   0.0000

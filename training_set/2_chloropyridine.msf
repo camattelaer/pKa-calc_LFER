@@ -1,0 +1,46 @@
+# 2-Chloropyridine  pKa=0.720
+# Ortho Cl on pyridinium: extreme EW effect, pKa < 1.
+# Among the lowest pyridinium pKa values accessible without strong EW groups.
+# Fills the pKa 0-1 range for N-heteroaromatics (currently empty in training).
+
+[microstate]
+name         = 2ClPyridinium
+charge       = +1
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+Cl      2.884832     -0.664063      0.618012
+C       1.257434     -0.267278      0.266173
+C       0.874248      1.042804      0.006145
+C      -0.463569      1.311451     -0.274759
+C      -1.386695      0.269235     -0.289823
+C      -0.951652     -1.023179     -0.022977
+N       0.342800     -1.245760      0.243383
+H       1.602369      1.851093      0.020031
+H      -0.785659      2.332419     -0.481650
+H      -2.434970      0.466413     -0.507999
+H      -1.612261     -1.884054     -0.016997
+H       0.673123     -2.189082      0.440462
+
+[microstate]
+name         = 2ClPyridine
+functional_group = imidazolium
+charge       = +0
+multiplicity = 1
+n_protons    = 0
+pka_step     = 0.72
+
+xyz =
+Cl      2.859494     -1.225206      0.005584
+C       1.256998     -0.614013      0.002003
+C       1.017871      0.750056      0.009177
+C      -0.306062      1.178279      0.005744
+C      -1.326502      0.231942     -0.004633
+C      -0.979734     -1.111035     -0.011189
+N       0.293783     -1.558182     -0.008098
+H       1.835098      1.461626      0.017203
+H      -0.540321      2.239177      0.011112
+H      -2.368702      0.532838     -0.007554
+H      -1.741922     -1.885482     -0.019349
+

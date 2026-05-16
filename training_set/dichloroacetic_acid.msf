@@ -1,0 +1,38 @@
+# dichloroacetic acid  pKa=1.480
+# Source: NIST
+# Two alpha-Cl: additive inductive effect. pKa 1.39 below monochloroacetic.
+# Tests additivity of Taft substituent constants in the DFT descriptor space.
+
+[microstate]
+name         = DichloroaceticAcid
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+O       1.454311     -0.534415      0.403639
+C       0.531643      0.257998     -0.197216
+O       0.912477      1.114568     -0.980522
+C      -0.889360     -0.073266      0.222072
+Cl     -1.990922      1.258128     -0.186592
+Cl     -1.397454     -1.568988     -0.587784
+H       2.308927     -0.238967      0.020685
+H      -0.929622     -0.215058      1.305718
+
+[microstate]
+name         = Dichloroacetate
+functional_group = carboxylate
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 1.48
+
+xyz =
+O       1.664691     -0.728179     -0.662204
+C       0.957950     -0.016761      0.119912
+O       1.351169      0.708396      1.080822
+C      -0.559308     -0.066399     -0.164912
+Cl     -1.190128      1.550505     -0.592509
+Cl     -1.458455     -0.723499      1.233271
+H      -0.765920     -0.724063     -1.014380
+

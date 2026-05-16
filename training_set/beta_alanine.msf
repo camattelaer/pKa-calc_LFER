@@ -1,0 +1,76 @@
+# beta_alanine.msf
+# Beta-alanine (3-aminopropanoic acid)
+# pKa1=3.550 (COOH), pKa2=10.240 (NH3+)
+# Source: Perrin 1981 / NIST
+# First non-alpha amino acid in the training set.
+# The beta-position shifts pKa1 (3.55 vs alpha ~2.3) and lowers pKa2
+# (10.24 vs alpha ~9.7) relative to alpha-amino acids, probing how well
+# the model generalises amino acid charge patterns beyond alpha position.
+
+[microstate]
+name         = BetaAla_cation
+charge       = +1
+multiplicity = 1
+n_protons    = 2
+
+xyz =
+N       1.444733      0.715468      0.472957
+C       0.832991     -0.641523      0.443024
+C      -0.261214     -0.737629     -0.610693
+C      -1.363304      0.223442     -0.284969
+O      -1.187135      1.269145      0.324760
+O      -2.551999     -0.148324     -0.769579
+H       0.704733      1.426236      0.643666
+H       2.128721      0.811774      1.234465
+H       1.911837      0.968889     -0.406727
+H       1.644814     -1.344481      0.235467
+H       0.444108     -0.825680      1.449703
+H      -0.662653     -1.756604     -0.612367
+H       0.123846     -0.506370     -1.608895
+H      -3.209477      0.545656     -0.540682
+
+[microstate]
+name         = BetaAla_zwitterion
+functional_group = carboxylate
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+pka_step     = 3.55
+
+xyz =
+N      -1.693690      0.128468     -0.221188
+C      -0.315880     -0.400344     -0.419741
+C       0.607680      0.386671      0.465360
+C       2.006018     -0.165856      0.249792
+O       2.886235      0.409050      0.937261
+O       2.089876     -1.111172     -0.576904
+H      -1.968355      0.026385      0.761705
+H      -2.357013     -0.383920     -0.809735
+H      -1.724537      1.123445     -0.468193
+H      -0.099316     -0.282228     -1.486540
+H      -0.361867     -1.463568     -0.162157
+H       0.335262      0.281001      1.521632
+H       0.595587      1.452068      0.208707
+
+[microstate]
+name         = BetaAla_anion
+functional_group = ammonium
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 10.24
+
+xyz =
+N      -1.885542     -0.381500     -0.044290
+C      -0.482033     -0.447991      0.398010
+C       0.351622      0.608991     -0.300016
+C       1.833991      0.529953      0.070411
+O       2.555024      1.406520     -0.489087
+O       2.174690     -0.388518      0.866042
+H      -2.365888     -1.197040      0.328020
+H      -1.894743     -0.475040     -1.058245
+H      -0.097286     -1.450221      0.176640
+H      -0.449809     -0.312252      1.484580
+H       0.274748      0.496564     -1.388816
+H      -0.014774      1.610535     -0.043247
+

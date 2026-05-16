@@ -1,0 +1,79 @@
+# isonicotinic_acid.msf
+# Isonicotinic acid (pyridine-4-carboxylic acid, isonicotinic acid)
+# pKa1=1.840 (pyridinium NH+, q=+1→0)  pKa2=4.860 (carboxylate, q=0→-1)
+# Source: Perrin 1981
+# Para isomer of nicotinic acid (which has err=-1.13 and -1.43).
+# The 4-COOH is in conjugation with the ring N, shifting both pKa values
+# relative to nicotinic acid and pyridine. Two steps with distinct
+# ΔBO_ring patterns: step1 is pyridinium N-base, step2 is carboxylate.
+
+[microstate]
+name         = IsonicotH2
+charge       = +1
+multiplicity = 1
+n_protons    = 2
+
+xyz =
+O       2.562151     -1.048809      0.735992
+C       2.096447     -0.017699      0.017634
+O       2.823769      0.781484     -0.536382
+C       0.615879      0.022560     -0.014126
+C      -0.001364      1.050460     -0.730640
+C      -1.387169      1.105568     -0.772490
+N      -2.114804      0.177762     -0.129012
+C      -1.551760     -0.822952      0.568456
+C      -0.169341     -0.926129      0.643732
+H       3.541933     -0.972708      0.685548
+H       0.593149      1.800681     -1.250940
+H      -1.933470      1.874952     -1.309016
+H      -3.134900      0.235592     -0.171826
+H      -2.224694     -1.522988      1.053651
+H       0.284173     -1.737774      1.209417
+
+[microstate]
+name         = Isonicotinic
+functional_group = imidazolium
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+pka_step     = 1.84
+
+xyz =
+O      -2.083501     -1.417987      0.861194
+C      -1.836270     -0.329994      0.111310
+O      -2.738179      0.308605     -0.397875
+C      -0.391896     -0.029710     -0.004917
+C      -0.007071      1.078356     -0.759871
+C       1.343323      1.353394     -0.864518
+N       2.305586      0.609867     -0.277457
+C       1.903791     -0.456678      0.447137
+C       0.579300     -0.816828      0.613430
+H      -3.061067     -1.494807      0.850836
+H      -0.738252      1.710385     -1.253173
+H       1.700116      2.203404     -1.439590
+H       2.703283     -1.032453      0.905328
+H       0.320836     -1.685554      1.208167
+
+[microstate]
+name         = Isonicotinate
+functional_group = carboxylate
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 4.86
+
+xyz =
+O       2.936233      0.453774      0.049375
+C       2.110068     -0.510416     -0.004301
+O       2.404002     -1.745552     -0.060267
+C       0.642619     -0.155446     -0.001305
+C      -0.341504     -1.147934     -0.057831
+C      -1.675712     -0.772062     -0.052583
+N      -2.104927      0.509172      0.004291
+C      -1.137367      1.452532      0.058317
+C       0.221134      1.177050      0.058081
+H      -0.057466     -2.195032     -0.104948
+H      -2.458737     -1.522068     -0.095667
+H      -1.490862      2.477459      0.103707
+H       0.952518      1.978522      0.103132
+

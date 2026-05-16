@@ -1,0 +1,40 @@
+# 3_mercaptopropionic_acid.msf — training compound for pKa LFER calibration
+
+[microstate]
+name             = 3MPA_anion_SH
+charge           = -1
+multiplicity     = 1
+n_protons        = 1
+
+xyz =
+C   0.0000   0.0000   0.0000
+C   1.5200   0.0000   0.0000
+C   2.2000   1.2800   0.0000
+O   3.4200   1.3500   0.0000
+O   1.5200   2.2700   0.0000
+S  -0.8000  -1.5500   0.0000
+H   1.9100  -0.5200   0.8900
+H   1.9100  -0.5200  -0.8900
+H  -0.4400  -0.3700   0.8900
+H  -0.4400  -0.3700  -0.8900
+H  -1.9500  -1.2900   0.0000
+
+[microstate]
+name             = 3MPA_dianion_S
+charge           = -2
+multiplicity     = 1
+n_protons        = 0
+pka_step         = 10.84
+functional_group = thiol
+
+xyz =
+C   0.0000   0.0000   0.0000
+C   1.5200   0.0000   0.0000
+C   2.2000   1.2800   0.0000
+O   3.4000   1.3200   0.0000
+O   1.5600   2.2900   0.0000
+S  -0.8000  -1.5500   0.0000
+H   1.9100  -0.5200   0.8900
+H   1.9100  -0.5200  -0.8900
+H  -0.4400  -0.3700   0.8900
+H  -0.4400  -0.3700  -0.8900

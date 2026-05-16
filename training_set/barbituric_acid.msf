@@ -1,0 +1,51 @@
+# barbituric_acid.msf
+# Barbituric acid (2,4,6-pyrimidinetrione)
+# pKa=4.010 (C5-H deprotonation; charge delocalises to N-CO-N enolate)
+# Source: Perrin 1981
+# First C-H acid in the training set — malonyl-type acidic CH2
+# flanked by two lactam carbonyls. Anion written as enolate for
+# RDKit compatibility; DFT will find the correct delocalised structure.
+
+[microstate]
+name         = Barbituric
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+O       2.674529      0.362910      0.520187
+C       1.481515      0.201029      0.288148
+N       0.608214      1.241730      0.282286
+C      -0.730759      1.171491      0.037629
+O      -1.425050      2.185818      0.059417
+C      -1.307502     -0.177417     -0.254304
+C      -0.338086     -1.316524     -0.245515
+O      -0.689803     -2.472785     -0.470747
+N       0.966446     -1.028062      0.023977
+H       0.990381      2.156482      0.478691
+H      -2.075510     -0.384294      0.498452
+H      -1.769650     -0.137461     -1.246321
+H       1.615275     -1.802916      0.028099
+
+[microstate]
+name         = Barbiturate
+functional_group = carboxylate
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 4.01
+
+xyz =
+O       2.745170     -0.544010     -0.210971
+C       1.510209     -0.495724     -0.171012
+N       0.688072     -1.490995     -0.173204
+C      -0.664546     -1.293741     -0.172612
+O      -1.464266     -2.197527     -0.433244
+C      -1.203783      0.034821      0.248531
+C      -0.247384      1.156859      0.080009
+O      -0.594729      2.334994      0.172424
+N       1.042967      0.784662     -0.124751
+H      -2.090795      0.252472     -0.356085
+H      -1.486800     -0.026517      1.304146
+H       1.765886      1.484705     -0.163230
+

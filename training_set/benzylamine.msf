@@ -1,0 +1,62 @@
+# benzylamine.msf
+# Benzylamine (phenylmethylamine)
+# pKa=9.340 (PhCH2NH3+ → PhCH2NH2, q=+1→0)
+# Source: Perrin 1981
+# Benzylic amine: sp3 nitrogen but adjacent to aromatic ring via CH2.
+# pKa sits between aliphatic amines (~10.5) and aromatic amines (~4-5),
+# testing whether the model interpolates correctly through the CH2 spacer.
+# Useful benchmark for drug-like amines (many drugs have benzylic N).
+
+[microstate]
+name         = Benzylammonium
+charge       = +1
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+N       2.382588     -0.322273     -0.634477
+C       1.671136      0.207337      0.548692
+C       0.188202      0.146763      0.344775
+C      -0.533236     -1.001885      0.705508
+C      -1.906944     -1.074471      0.471081
+C      -2.570767     -0.006899     -0.128547
+C      -1.864651      1.136887     -0.493349
+C      -0.490834      1.215153     -0.261399
+H       2.135333      0.217569     -1.472741
+H       3.400793     -0.289565     -0.514821
+H       2.106392     -1.295485     -0.812869
+H       2.016730      1.235172      0.700204
+H       1.985622     -0.391560      1.409655
+H      -0.046585     -1.850013      1.184525
+H      -2.467473     -1.961430      0.761639
+H      -3.643517     -0.063159     -0.304590
+H      -2.392267      1.970782     -0.953298
+H       0.029478      2.127075     -0.549986
+
+[microstate]
+name         = Benzylamine
+functional_group = ammonium
+charge       = +0
+multiplicity = 1
+n_protons    = 0
+pka_step     = 9.34
+
+xyz =
+N       2.546673      0.631516      0.428627
+C       1.779921     -0.103200     -0.570601
+C       0.304521     -0.076086     -0.264609
+C      -0.384976     -1.255438      0.051034
+C      -1.753461     -1.224155      0.328023
+C      -2.446181     -0.015213      0.293966
+C      -1.771981      1.164228     -0.015492
+C      -0.404502      1.134151     -0.293133
+H       3.539361      0.480010      0.264900
+H       2.341307      0.242466      1.347865
+H       2.141581     -1.137104     -0.611153
+H       1.950218      0.332038     -1.561819
+H       0.138779     -2.207784      0.083228
+H      -2.279236     -2.143677      0.571253
+H      -3.510655      0.008478      0.510987
+H      -2.308379      2.108975     -0.037995
+H       0.117009      2.060794     -0.525083
+

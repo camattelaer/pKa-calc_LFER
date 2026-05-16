@@ -1,0 +1,70 @@
+# cysteamine.msf
+# 2-Aminoethanethiol (cysteamine)
+# pKa1=8.270 (SH → S-, q=+1→0)  pKa2=10.750 (NH3+ → NH2, q=0→-1)
+# Source: Perrin 1981
+# Simplest thiol-amine. Isolates the mutual inductive effects of NH3+/NH2
+# on the adjacent SH acid. Directly addresses the cluster of negative
+# residuals in alpha-thiol amino acids (homocysteine, cysteine, penicillamine,
+# thiolactic_acid, thioglycolic_acid, 3_mercaptopropionic_acid).
+
+[microstate]
+name         = Cysteammonium_SH
+charge       = +1
+multiplicity = 1
+n_protons    = 2
+
+xyz =
+N      -1.326198      0.206504      0.523809
+C      -0.476953     -0.620894     -0.377283
+C       0.899838      0.018624     -0.564916
+S       1.656638      0.402391      1.046691
+H      -2.210668     -0.260737      0.759312
+H      -0.818253      0.378324      1.407211
+H      -1.544915      1.126717      0.121475
+H      -1.009731     -0.710833     -1.328281
+H      -0.401196     -1.609927      0.086151
+H       0.814006      0.950478     -1.132916
+H       1.556715     -0.658278     -1.119316
+H       2.860717      0.777631      0.578062
+
+[microstate]
+name         = Cysteamine_SH
+functional_group = thiol
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+pka_step     = 8.27
+
+xyz =
+N      -1.576264     -0.570640      0.069956
+C      -0.615070      0.495180     -0.224109
+C       0.664812      0.422926      0.617972
+S       1.559534     -1.146797      0.384685
+H      -1.795771     -0.567965      1.065456
+H      -1.111315     -1.467190     -0.095347
+H      -0.367035      0.463207     -1.291326
+H      -1.103943      1.459037     -0.044280
+H       1.334008      1.244362      0.342963
+H       0.427430      0.527814      1.681883
+H       2.583615     -0.859933      1.201730
+
+[microstate]
+name         = Cysteamine_S-
+functional_group = ammonium
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 10.75
+
+xyz =
+N       1.184473     -0.305116      0.845704
+C       0.114685     -0.739577     -0.069374
+C      -0.837164      0.424322     -0.412266
+S       0.092981      1.885219     -1.052920
+H       1.590671      0.490100      0.318715
+H       0.719175      0.208226      1.595607
+H       0.571804     -1.147537     -0.978660
+H      -0.451753     -1.549970      0.402023
+H      -1.411393      0.678634      0.487856
+H      -1.573479      0.055699     -1.136685
+

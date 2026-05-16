@@ -1,0 +1,40 @@
+# dimethylamine.msf — training compound for pKa LFER calibration
+
+[microstate]
+name             = Dimethylammonium
+charge           = 1
+multiplicity     = 1
+n_protons        = 1
+
+xyz =
+C  -1.2800   0.0000   0.4200
+N   0.0000   0.0000  -0.3000
+C   1.2800   0.0000   0.4200
+H  -1.3200   0.8900   1.0600
+H  -1.3200  -0.8900   1.0600
+H  -2.1600   0.0000  -0.2400
+H   1.3200   0.8900   1.0600
+H   1.3200  -0.8900   1.0600
+H   2.1600   0.0000  -0.2400
+H  -0.0000   0.8600  -0.8700
+H  -0.0000  -0.8600  -0.8700
+
+[microstate]
+name             = Dimethylamine
+charge           = 0
+multiplicity     = 1
+n_protons        = 0
+pka_step         = 10.731
+functional_group = ammonium
+
+xyz =
+C  -1.2800   0.0000   0.4200
+N   0.0000   0.0000  -0.3000
+C   1.2800   0.0000   0.4200
+H  -1.3200   0.8900   1.0600
+H  -1.3200  -0.8900   1.0600
+H  -2.1600   0.0000  -0.2400
+H   1.3200   0.8900   1.0600
+H   1.3200  -0.8900   1.0600
+H   2.1600   0.0000  -0.2400
+H   0.0000   0.8500  -0.8500

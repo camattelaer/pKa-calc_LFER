@@ -1,0 +1,52 @@
+# 4_fluorophenol.msf
+# 4-Fluorophenol (para-fluorophenol)
+# pKa=9.890
+# Source: Perrin 1981 / NIST
+# Halogenated phenol: F is electron-withdrawing (inductive) but
+# electron-donating (mesomeric). pKa lies between phenol (9.99)
+# and 4-chlorophenol (9.38). Tests the fluorine electronic effect
+# on the phenol Δq_O and ΔE_CPCM descriptors.
+
+[microstate]
+name         = 4FPhenol
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+O      -2.480122     -0.098218     -0.378847
+C      -1.133778     -0.031686     -0.175807
+C      -0.395763     -1.163180      0.166817
+C       0.980846     -1.045487      0.364590
+C       1.593759      0.195664      0.217201
+F       2.915099      0.303892      0.407972
+C       0.856269      1.324279     -0.124772
+C      -0.519213      1.209314     -0.322899
+H      -2.772319     -1.014720     -0.244253
+H      -0.869508     -2.132683      0.282751
+H       1.580062     -1.909898      0.632029
+H       1.354498      2.281770     -0.234398
+H      -1.109831      2.080953     -0.590384
+
+[microstate]
+name         = 4FPhenoxide
+functional_group = phenol
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 9.89
+
+xyz =
+O       2.722629     -0.045647      0.117984
+C       1.450249     -0.024314      0.062850
+C       0.712938      1.176659      0.046166
+C      -0.685271      1.212868     -0.014273
+C      -1.390470      0.023312     -0.060267
+F      -2.730410      0.045778     -0.118354
+C      -0.724134     -1.189239     -0.046805
+C       0.674488     -1.199920      0.013972
+H       1.261788      2.117029      0.082156
+H      -1.207597      2.160453     -0.024856
+H      -1.276830     -2.118801     -0.082808
+H       1.192620     -2.158179      0.024236
+

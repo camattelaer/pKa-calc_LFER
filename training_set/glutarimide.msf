@@ -1,0 +1,57 @@
+# glutarimide.msf
+# Glutarimide (2,6-piperidinedione)
+# pKa=9.700 (N-H cyclic imide acid, q=0→-1)
+# Source: Albert & Serjeant 1971
+# Aliphatic cyclic imide N-H, pKa=9.70. Directly interpolates between
+# barbituric acid (err=+1.67, pKa=4.01) and saccharin (err=+0.89, pKa=1.60).
+# Unlike phthalimide, has no aromatic ring → ΔBO_ring≈0, small ΔBO_XC.
+# The contrast phthalimide vs glutarimide teaches the model the effect of
+# ring aromaticity on the same cyclic imide N-H motif.
+
+[microstate]
+name         = Glutarimide
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+O      -0.205751      2.764472      0.019980
+C      -0.059238      1.545673     -0.002501
+C      -1.167867      0.606312     -0.412365
+C      -0.982487     -0.763914      0.217532
+C       0.385446     -1.315838     -0.146884
+C       1.481369     -0.360755      0.260811
+O       2.624351     -0.737646      0.503685
+N       1.152607      0.971216      0.288019
+H      -2.123150      1.031789     -0.087010
+H      -1.173205      0.538616     -1.505731
+H      -1.767446     -1.445800     -0.126742
+H      -1.070197     -0.684116      1.308481
+H       0.464808     -1.488346     -1.225774
+H       0.544150     -2.268868      0.368866
+H       1.896608      1.607204      0.539632
+
+[microstate]
+name         = Glutarimide_ani
+functional_group = imidazolium
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 9.7
+
+xyz =
+O      -1.717316      1.858300      0.974971
+C      -0.848536      1.293486      0.311141
+C      -1.189458      0.031980     -0.459489
+C      -0.249290     -1.096534     -0.080787
+C       1.072339     -0.547133      0.421538
+C       1.331779      0.832113     -0.154543
+O       2.379582      1.054740     -0.760354
+N       0.396679      1.744842      0.128543
+H      -2.226252     -0.256362     -0.252959
+H      -1.129414      0.252326     -1.532971
+H      -0.091466     -1.744206     -0.951283
+H      -0.697841     -1.727679      0.695491
+H       1.890273     -1.221480      0.144089
+H       1.078921     -0.474394      1.516611
+

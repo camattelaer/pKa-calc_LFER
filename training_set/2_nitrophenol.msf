@@ -1,0 +1,53 @@
+# 2-Nitrophenol  pKa=7.220
+# Ortho NO2: intramolecular H-bond stabilises phenol OH, raising pKa
+# above what pure inductive effect predicts. Compare 4-NO2 (7.15).
+# The near-equal pKa of 2- and 4-NO2 phenol illustrates that ortho
+# H-bond and para resonance cancel, an important structural insight.
+
+[microstate]
+name         = 2NitroPhenol
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+O      -1.148724     -2.042345     -0.393865
+C      -0.304813     -0.981718     -0.204445
+C       1.052273     -1.270172     -0.352956
+C       2.009279     -0.267651     -0.183653
+C       1.615179      1.031403      0.135630
+C       0.260264      1.332746      0.286934
+C      -0.702348      0.323739      0.116500
+N      -2.117137      0.664011      0.280314
+O      -2.946790     -0.247094      0.123986
+O      -2.408233      1.834273      0.564044
+H      -2.078135     -1.754777     -0.271708
+H       1.365962     -2.281655     -0.601974
+H       3.064853     -0.502919     -0.301647
+H       2.364434      1.809347      0.266605
+H      -0.026063      2.352812      0.536235
+
+[microstate]
+name         = 2NitroPhenoxide
+functional_group = phenol
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 7.22
+
+xyz =
+O       1.405667     -2.114469      0.335516
+C       0.542920     -1.182769      0.204270
+C      -0.836936     -1.437909      0.350377
+C      -1.832646     -0.454693      0.217676
+C      -1.487863      0.858684     -0.073756
+C      -0.146912      1.180647     -0.230837
+C       0.830424      0.172550     -0.091806
+N       2.209217      0.612696     -0.275572
+O       2.647790      0.650278     -1.440056
+O       2.794629      1.089688      0.714149
+H      -1.146510     -2.458682      0.579719
+H      -2.873353     -0.735072      0.345818
+H      -2.254154      1.618859     -0.176599
+H       0.147728      2.200191     -0.458898
+

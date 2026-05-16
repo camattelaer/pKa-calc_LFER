@@ -1,0 +1,48 @@
+# alanine.msf — training compound for pKa LFER calibration
+# Ammonium group: alpha-NH3+ deprotonation, pKa=9.87
+# Step: Alanine_zwitterion(z=0, C3H7NO2) → Alanine_anion(z=-1, C3H6NO2) + H+
+# Zwitterion: +NH3-CH(CH3)-COO-  (7H, e=48 ✓)
+# Anion:       NH2-CH(CH3)-COO-  (6H, e=48 ✓)
+
+[microstate]
+name             = Alanine_zwitterion
+charge           = 0
+multiplicity     = 1
+n_protons        = 1
+
+xyz =
+N   0.0000   0.0000   0.0000
+C   1.4800   0.0000   0.0000
+C   2.0500   1.4300   0.0000
+O   3.2700   1.5400   0.0000
+O   1.3100   2.4400   0.0000
+C   2.1000  -0.7700  -1.1800
+H  -0.3900   0.9400   0.0000
+H  -0.3900  -0.4700  -0.8200
+H  -0.3900  -0.4700   0.8200
+H   1.8100  -0.4700   0.9900
+H   2.0700  -1.8600  -1.0700
+H   1.5700  -0.4700  -2.0900
+H   3.1600  -0.5400  -1.3000
+
+[microstate]
+name             = Alanine_anion
+charge           = -1
+multiplicity     = 1
+n_protons        = 0
+pka_step         = 9.870
+functional_group = ammonium
+
+xyz =
+N   0.0000   0.0000   0.0000
+C   1.4800   0.0000   0.0000
+C   2.0500   1.4300   0.0000
+O   3.2500   1.5100   0.0000
+O   1.3500   2.4500   0.0000
+C   2.1000  -0.7700  -1.1800
+H  -0.3900   0.9400   0.0000
+H  -0.3900  -0.4700  -0.8200
+H  -0.3900  -0.4700   0.8200
+H   2.0700  -1.8600  -1.0700
+H   1.5700  -0.4700  -2.0900
+H   3.1600  -0.5400  -1.3000

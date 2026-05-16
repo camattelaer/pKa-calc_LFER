@@ -1,0 +1,42 @@
+# guanidine.msf
+# Simplest guanidinium. pKa=13.60 (guanidinium→guanidine)
+# Source: Perrin 1981; NIST
+# Provides guanidinium_q+1 LFER key at high pKa (covers metformin pKa2 region)
+
+[microstate]
+name         = GuanidiniumH
+charge       = +1
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+N       1.242029     -0.315802      0.348339
+C       0.000000      0.000001     -0.000000
+N      -0.416255      1.257706      0.092821
+N      -0.825774     -0.941903     -0.441160
+H       1.891067      0.382864      0.687511
+H       1.584004     -1.266447      0.287110
+H       0.192922      1.994198      0.425841
+H      -1.357559      1.524736     -0.166143
+H      -1.776925     -0.727752     -0.712953
+H      -0.533509     -1.907599     -0.521365
+
+[microstate]
+name         = Guanidine
+functional_group = guanidinium
+charge       = +0
+multiplicity = 1
+n_protons    = 0
+pka_step     = 13.6
+
+xyz =
+N       1.193991     -0.437638      0.328741
+C       0.088292      0.217705     -0.055923
+N       0.136633      1.423750     -0.474588
+N      -1.019830     -0.531247      0.049435
+H       1.262139     -1.359661     -0.083994
+H       2.013261      0.114719      0.091284
+H      -0.799802      1.735179     -0.737565
+H      -0.988455     -1.154336      0.848988
+H      -1.886230     -0.008473      0.033624
+

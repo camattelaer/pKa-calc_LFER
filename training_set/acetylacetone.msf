@@ -1,0 +1,56 @@
+# acetylacetone.msf
+# Acetylacetone (2,4-pentanedione)
+# pKa=8.900 (C-H acid, beta-diketone: CH2 flanked by two C=O)
+# Source: Perrin 1981
+# Second C-H acid in training set after barbituric acid, but acyclic.
+# The anion is a symmetric enolate — charge delocalised across O-C=C-C-O.
+# Δq_O and Δq_C will be large; Δq_N=0. Unique among all training data.
+# Important metal-chelating scaffold (Fe, Cu, Al coordination chemistry).
+
+[microstate]
+name         = Acetylacetone
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+C       2.062032      0.720893      0.181880
+C       0.898944      0.148336      0.947549
+O       0.567758      0.593563      2.046663
+C       0.117066     -0.953920      0.292788
+C      -0.865469     -0.421129     -0.710095
+C      -2.165775      0.124475     -0.182493
+O      -0.592582     -0.391336     -1.910348
+H       2.587707      1.450319      0.804409
+H       2.758994     -0.078888     -0.080588
+H       1.700953      1.218472     -0.721183
+H       0.805061     -1.649459     -0.199105
+H      -0.414632     -1.531952      1.055840
+H      -2.814672      0.399159     -1.018807
+H      -1.974624      1.011595      0.425755
+H      -2.670760     -0.640129      0.413046
+
+[microstate]
+name         = Acetylacetonate
+functional_group = carboxylate
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 8.9
+
+xyz =
+C       2.362517      0.505472      0.159650
+C       0.871519      0.507323     -0.049102
+O       0.288246      1.502028     -0.467636
+C       0.148619     -0.739825      0.244439
+C      -1.300176     -0.968732      0.121588
+O      -1.732581     -2.086879      0.403074
+C      -2.208758      0.138363     -0.333817
+H       2.654825      1.430707      0.664240
+H       2.862655      0.434748     -0.809522
+H       2.675541     -0.332809      0.788018
+H       0.721885     -1.593183      0.582493
+H      -1.950876      0.444249     -1.350706
+H      -3.241451     -0.224322     -0.340015
+H      -2.151965      0.982860      0.357427
+

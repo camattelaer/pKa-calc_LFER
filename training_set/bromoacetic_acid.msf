@@ -1,0 +1,38 @@
+# bromoacetic acid  pKa=2.900
+# Source: NIST
+# Alpha-Br: sigma*=+1.00, slightly less EW than Cl (2.87). Br vs Cl
+# comparison tests whether the model captures halogen polarisability effect.
+
+[microstate]
+name         = BromoaceticAcid
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+O       1.456936     -0.655950      0.156392
+C       0.500865      0.300446      0.111365
+O       0.811251      1.465526      0.287579
+C      -0.851487     -0.293917     -0.165578
+Br     -2.198472      1.103189     -0.223531
+H       2.280380     -0.154451      0.340309
+H      -0.860763     -0.785234     -1.140463
+H      -1.138709     -0.979610      0.633928
+
+[microstate]
+name         = Bromoacetate
+functional_group = carboxylate
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 2.9
+
+xyz =
+O       1.387131     -0.364567     -1.189727
+C       0.773475      0.368854     -0.361227
+O       1.013394      1.563676     -0.021029
+C      -0.378942     -0.301444      0.376172
+Br     -2.023454     -0.009100     -0.632066
+H      -0.531891      0.125017      1.370770
+H      -0.239714     -1.382437      0.457106
+

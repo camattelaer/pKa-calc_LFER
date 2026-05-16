@@ -1,0 +1,50 @@
+# 4-Aminopyridine (4-AP)  pKa=9.110
+# Para-amino directly in resonance with ring N: strongest donor position.
+# pKa=9.11 nearly doubles pyridine basicity (5.23); DMAP precursor.
+# Landmark example of Hammett para mesomeric effect on a heterocycle.
+
+[microstate]
+name         = 4AminoPyridinium
+charge       = +1
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+N       2.228349      0.099327     -0.563065
+C       0.901571      0.045692     -0.151398
+C       0.270865     -1.183238      0.030229
+C      -1.091254     -1.226060      0.301346
+N      -1.799090     -0.087557      0.352382
+C      -1.237976      1.111126      0.132979
+C       0.121262      1.199843     -0.141445
+H       2.713458      0.984033     -0.430708
+H       2.818556     -0.690116     -0.310104
+H       0.834726     -2.110399     -0.044718
+H      -1.633470     -2.151379      0.464136
+H      -2.800489     -0.136433      0.546572
+H      -1.892543      1.975481      0.166843
+H       0.566034      2.169680     -0.353050
+
+[microstate]
+name         = 4AminoPyridine
+functional_group = imidazolium
+charge       = +0
+multiplicity = 1
+n_protons    = 0
+pka_step     = 9.11
+
+xyz =
+N       1.971769     -0.585985     -0.428040
+C       0.671648     -0.188364     -0.093129
+C      -0.300312     -1.137762      0.210493
+C      -1.603999     -0.714410      0.420357
+N      -2.003666      0.569767      0.314551
+C      -1.057918      1.462446     -0.044225
+C       0.269089      1.132056     -0.273929
+H       2.667369      0.147486     -0.331665
+H       2.265717     -1.453629      0.010045
+H      -0.056707     -2.191017      0.284469
+H      -2.386126     -1.423014      0.676598
+H      -1.405763      2.485034     -0.157453
+H       0.968901      1.897391     -0.588073
+

@@ -1,0 +1,37 @@
+# chloroacetic acid  pKa=2.870
+# Source: NIST
+# Alpha-Cl: Taft sigma*=+1.05, weaker than F. Classic Taft series benchmark.
+
+[microstate]
+name         = ChloroaceticAcid
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+O       1.422610     -0.672776      0.195291
+C       0.497754      0.308668      0.082348
+O       0.847154      1.473661      0.164586
+C      -0.882846     -0.253602     -0.138484
+Cl     -2.085853      1.042785     -0.284892
+H       2.263720     -0.185776      0.333550
+H      -0.898510     -0.833597     -1.064450
+H      -1.164030     -0.879362      0.712051
+
+[microstate]
+name         = Chloroacetate
+functional_group = carboxylate
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 2.87
+
+xyz =
+O       1.577481     -0.595256     -0.785396
+C       0.918391      0.068237      0.067683
+O       1.340806      0.848026      0.970935
+C      -0.594414     -0.153732      0.046230
+Cl     -1.388776      1.026608     -1.030750
+H      -1.018664     -0.036393      1.047795
+H      -0.834825     -1.157490     -0.316497
+

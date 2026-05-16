@@ -1,0 +1,42 @@
+# glycine.msf — training compound for pKa LFER calibration
+# Ammonium group: alpha-NH3+ deprotonation, pKa=9.60
+# Step: Glycine_zwitterion(z=0, C2H5NO2) → Glycine_anion(z=-1, C2H4NO2) + H+
+# Zwitterion: +NH3-CH2-COO-  (5H, e=40 ✓)
+# Anion:       NH2-CH2-COO-  (4H, e=40 ✓)
+
+[microstate]
+name             = Glycine_zwitterion
+charge           = 0
+multiplicity     = 1
+n_protons        = 1
+
+xyz =
+N   0.0000   0.0000   0.0000
+C   1.4800   0.0000   0.0000
+C   2.0100   1.4200   0.0000
+O   3.2300   1.5200   0.0000
+O   1.2400   2.4400   0.0000
+H  -0.3900   0.9400   0.0000
+H  -0.3900  -0.4700  -0.8200
+H  -0.3900  -0.4700   0.8200
+H   1.8600  -0.5200   0.8900
+H   1.8600  -0.5200  -0.8900
+
+[microstate]
+name             = Glycine_anion
+charge           = -1
+multiplicity     = 1
+n_protons        = 0
+pka_step         = 9.600
+functional_group = ammonium
+
+xyz =
+N   0.0000   0.0000   0.0000
+C   1.4800   0.0000   0.0000
+C   2.0100   1.4200   0.0000
+O   3.2100   1.5000   0.0000
+O   1.2800   2.4600   0.0000
+H  -0.3900   0.9400   0.0000
+H  -0.3900  -0.4700  -0.8200
+H  -0.3900  -0.4700   0.8200
+H   1.8600  -0.5200   0.8900

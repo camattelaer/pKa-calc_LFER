@@ -1,0 +1,40 @@
+# acetic_acid.msf — isodesmic reference compound
+# Monoprotic carboxylic acid, pKa = 4.756 (NIST)
+# Used as reference for other carboxylic acids and amino acids.
+
+[microstate]
+name         = AceticAcid_HAc
+charge       = 0
+multiplicity = 1
+n_protons    = 1
+# n_protons = 1: this is the ACID form (has the titratable proton)
+# No pka_step here — this is the DONOR end of the only step
+
+xyz =
+C   -0.4380   0.0000   0.0000
+C    1.0192   0.0000   0.0000
+O    1.5488   1.0665   0.0000
+O    1.7070  -1.1010   0.0000
+H    2.6541  -0.9127   0.0000
+H   -0.8147   1.0263   0.0000
+H   -0.8147  -0.5132   0.8888
+H   -0.8147  -0.5132  -0.8888
+
+[microstate]
+name         = Acetate_Ac-
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+functional_group = carboxylate
+# n_protons = 0: this is the BASE form (fully deprotonated reference)
+# pka_step: experimental pKa for AceticAcid_HAc → Acetate_Ac- + H+
+pka_step     = 4.756
+
+xyz =
+C   -0.4380   0.0000   0.0000
+C    1.0192   0.0000   0.0000
+O    1.5488   1.0665   0.0000
+O    1.7070  -1.1010   0.0000
+H   -0.8147   1.0263   0.0000
+H   -0.8147  -0.5132   0.8888
+H   -0.8147  -0.5132  -0.8888

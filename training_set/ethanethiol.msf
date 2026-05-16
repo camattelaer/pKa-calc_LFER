@@ -1,0 +1,36 @@
+# ethanethiol.msf — training compound for pKa LFER calibration
+
+[microstate]
+name             = Ethanethiol
+charge           = 0
+multiplicity     = 1
+n_protons        = 1
+
+xyz =
+C  -1.2000   0.0000   0.0000
+C   0.0000   0.0000   0.8600
+S   0.0000   0.0000   2.6600
+H  -1.2000   0.0000  -1.0800
+H  -1.7400   0.8900   0.3600
+H  -1.7400  -0.8900   0.3600
+H   0.5500  -0.8900   0.5000
+H   0.5500   0.8900   0.5000
+H   1.3300  -0.0600   2.7000
+
+[microstate]
+name             = Ethanethiolate
+charge           = -1
+multiplicity     = 1
+n_protons        = 0
+pka_step         = 10.61
+functional_group = thiol
+
+xyz =
+C  -1.2000   0.0000   0.0000
+C   0.0000   0.0000   0.8600
+S   0.0000   0.0000   2.6600
+H  -1.2000   0.0000  -1.0800
+H  -1.7400   0.8900   0.3600
+H  -1.7400  -0.8900   0.3600
+H   0.5500  -0.8900   0.5000
+H   0.5500   0.8900   0.5000
