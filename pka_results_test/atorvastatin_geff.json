@@ -1,0 +1,22 @@
+{
+  "compound": "atorvastatin",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "AtorvastatinAcid",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -1750.1542886374025,
+      "n_struct_found": 761,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Atorvastatinate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -1749.7002539436146,
+      "n_struct_found": 1588,
+      "n_struct_used": 10
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "compound": "gabapentin",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Gabapentin_cat",
+      "charge": 1,
+      "n_protons": 2,
+      "G_eff_Eh": -558.5503445923141,
+      "n_struct_found": 26,
+      "n_struct_used": 7
+    },
+    {
+      "name": "Gabapentin_zwit",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -558.1080679718816,
+      "n_struct_found": 13,
+      "n_struct_used": 4
+    },
+    {
+      "name": "Gabapentin_ani",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -557.6425394129063,
+      "n_struct_found": 60,
+      "n_struct_used": 10
+    }
+  ]
+}

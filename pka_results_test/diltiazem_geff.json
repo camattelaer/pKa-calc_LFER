@@ -1,0 +1,22 @@
+{
+  "compound": "diltiazem",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Diltiazem_cat",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -1662.3993762967493,
+      "n_struct_found": 109,
+      "n_struct_used": 8
+    },
+    {
+      "name": "Diltiazem_neut",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -1661.9462179326736,
+      "n_struct_found": 134,
+      "n_struct_used": 6
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "compound": "venlafaxine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Venlafaxine_cat",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -869.1457503044657,
+      "n_struct_found": 87,
+      "n_struct_used": 5
+    },
+    {
+      "name": "Venlafaxine_neut",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -868.6943720124976,
+      "n_struct_found": 263,
+      "n_struct_used": 3
+    }
+  ]
+}

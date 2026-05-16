@@ -1,0 +1,32 @@
+GPR Test Set Predictions
+Model: pka_results/gpr_model.json
+Method: r2SCAN-3c
+
+Compound                Step                           q   pKa_calc   pKa_exp   pKa_pred       σ     err
+────────────────────────────────────────────────────────────────────────────────────────────────────
+acetazolamide           Acetazolamid→Acetazolam      0     211.50     7.400      7.544   1.472  -0.144
+acyclovir               Acyclovir_ne→Acyclovir_      0     217.85     9.250      5.471   2.178  +3.779
+atorvastatin            Atorvastatin→Atorvastat      0     208.84     4.460      4.476   1.056  -0.016
+celecoxib               Celecoxib_ne→Celecoxib_      0     213.48    11.100      9.328   1.531  +1.772
+clonidine               Clonidine_ca→Clonidine_      1     210.72     8.300     11.231   2.471  -2.931
+diltiazem               Diltiazem_ca→Diltiazem_      1     208.44     7.700      9.434   1.420  -1.734
+donepezil               Donepezil_ca→Donepezil_      1     207.51     9.130      9.642   1.499  -0.512
+fluconazole             Fluconazole_→Fluconazol      1     183.56     1.760      1.489   3.248  +0.271
+gabapentin              Gabapentin_c→Gabapentin      1     203.43     3.680      3.594   1.798  +0.086
+gabapentin              Gabapentin_z→Gabapentin      0     214.13    10.700     10.644   1.282  +0.056
+glipizide               Glipizide_ne→Glipizide_      0     212.06     5.900      9.196   1.603  -3.296
+lamotrigine             Lamotrigine_→Lamotrigin      1     200.65     5.700      2.986   1.312  +2.714
+meclofenamic_acid       Meclofenamic→Meclofenam      0     208.52     4.000      5.185   0.920  -1.185
+metronidazole           Metro_cat→Metro_neut         1     198.52     2.580      1.067   1.238  +1.513
+phenytoin               Phenytoin_ne→Phenytoin_      0     211.71     8.310      7.812   1.283  +0.498
+pioglitazone            Pioglitazone→Pioglitazo      0     207.64     6.800      4.341   1.342  +2.459
+piroxicam               Piroxicam_ne→Piroxicam_      0     206.83     5.070      5.423   1.286  -0.353
+riluzole                Riluzole_cat→Riluzole_n      1     185.88     2.930      1.359   2.656  +1.571
+sulfamethoxazole        SMX_cat→SMX_neut             1     193.23     1.850      1.704   1.029  +0.146
+sulfamethoxazole        SMX_neut→SMX_ani             0     209.82     5.600      7.651   1.785  -2.051
+trimethoprim            TMP_cat→TMP_neut             1     206.35     7.120      6.410   1.891  +0.710
+venlafaxine             Venlafaxine_→Venlafaxin      1     207.62     9.400      9.229   1.048  +0.171
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Test RMSE: 1.718   MAE: 1.271   N=22 steps with experimental pKa
+Training LOO RMSE: 1.397   LOO MAE: 0.877

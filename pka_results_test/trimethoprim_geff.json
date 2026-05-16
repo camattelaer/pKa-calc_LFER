@@ -1,0 +1,22 @@
+{
+  "compound": "trimethoprim",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "TMP_cat",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -989.0236840764042,
+      "n_struct_found": 84,
+      "n_struct_used": 7
+    },
+    {
+      "name": "TMP_neut",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -988.5750578542751,
+      "n_struct_found": 151,
+      "n_struct_used": 10
+    }
+  ]
+}

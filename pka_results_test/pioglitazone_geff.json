@@ -1,0 +1,22 @@
+{
+  "compound": "pioglitazone",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Pioglitazone_neut",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -1390.4095496053474,
+      "n_struct_found": 99,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Pioglitazone_ani",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -1389.9581354693903,
+      "n_struct_found": 103,
+      "n_struct_used": 8
+    }
+  ]
+}

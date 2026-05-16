@@ -1,0 +1,22 @@
+{
+  "compound": "glipizide",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Glipizide_neut",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -1675.3461835467647,
+      "n_struct_found": 634,
+      "n_struct_used": 5
+    },
+    {
+      "name": "Glipizide_ani",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -1674.8851599254938,
+      "n_struct_found": 687,
+      "n_struct_used": 5
+    }
+  ]
+}

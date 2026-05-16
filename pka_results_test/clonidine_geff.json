@@ -1,0 +1,22 @@
+{
+  "compound": "clonidine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Clonidine_cat",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -1433.20642152855,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Clonidine_neut",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -1432.7483020869536,
+      "n_struct_found": 4,
+      "n_struct_used": 4
+    }
+  ]
+}

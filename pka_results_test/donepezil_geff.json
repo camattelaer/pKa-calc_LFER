@@ -1,0 +1,22 @@
+{
+  "compound": "donepezil",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Donepezil_cat",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -1212.2100755693136,
+      "n_struct_found": 117,
+      "n_struct_used": 9
+    },
+    {
+      "name": "Donepezil_neut",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -1211.758944430084,
+      "n_struct_found": 370,
+      "n_struct_used": 8
+    }
+  ]
+}

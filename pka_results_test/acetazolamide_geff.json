@@ -1,0 +1,22 @@
+{
+  "compound": "acetazolamide",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Acetazolamide_neut",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -1396.8476452629916,
+      "n_struct_found": 4,
+      "n_struct_used": 3
+    },
+    {
+      "name": "Acetazolamide_ani",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -1396.387826196225,
+      "n_struct_found": 5,
+      "n_struct_used": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "compound": "piroxicam",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Piroxicam_neut",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -1386.975937762048,
+      "n_struct_found": 12,
+      "n_struct_used": 4
+    },
+    {
+      "name": "Piroxicam_ani",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -1386.5262733640884,
+      "n_struct_found": 7,
+      "n_struct_used": 4
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "compound": "acyclovir",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Acyclovir_neut",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -810.6442896855424,
+      "n_struct_found": 64,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Acyclovir_ani",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -810.1706791447702,
+      "n_struct_found": 101,
+      "n_struct_used": 8
+    }
+  ]
+}

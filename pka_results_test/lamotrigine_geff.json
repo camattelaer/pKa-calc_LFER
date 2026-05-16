@@ -1,0 +1,22 @@
+{
+  "compound": "lamotrigine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Lamotrigine_cat",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -1081.96478672246,
+      "n_struct_found": 3,
+      "n_struct_used": 3
+    },
+    {
+      "name": "Lamotrigine_neut",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -1081.5285543402529,
+      "n_struct_found": 3,
+      "n_struct_used": 3
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "compound": "fluconazole",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Fluconazole_cat",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -1106.0374950467844,
+      "n_struct_found": 13,
+      "n_struct_used": 6
+    },
+    {
+      "name": "Fluconazole_neut",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -1105.638413659428,
+      "n_struct_found": 98,
+      "n_struct_used": 8
+    }
+  ]
+}

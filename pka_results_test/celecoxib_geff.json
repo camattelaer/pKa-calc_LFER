@@ -1,0 +1,22 @@
+{
+  "compound": "celecoxib",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Celecoxib_neut",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -1668.2104271910605,
+      "n_struct_found": 9,
+      "n_struct_used": 8
+    },
+    {
+      "name": "Celecoxib_ani",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -1667.746308637737,
+      "n_struct_found": 9,
+      "n_struct_used": 8
+    }
+  ]
+}

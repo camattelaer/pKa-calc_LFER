@@ -1,0 +1,22 @@
+{
+  "compound": "riluzole",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Riluzole_cat",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -1115.3649801789566,
+      "n_struct_found": 4,
+      "n_struct_used": 2
+    },
+    {
+      "name": "Riluzole_neut",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -1114.9608662035384,
+      "n_struct_found": 8,
+      "n_struct_used": 7
+    }
+  ]
+}
