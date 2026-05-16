@@ -1,0 +1,46 @@
+# methanesulfonamide.msf
+# Methanesulfonamide (CH3SO2NH2)
+# pKa=10.100 (N-H sulfonamide acid, q=0→-1)
+# Source: Perrin 1981
+# Simplest acyclic N-H sulfonamide. The SO2 group strongly withdraws
+# electron density from N, making it much more acidic than a simple
+# amine (pKa 10.1 vs ~10.6). Isolated from other ionisable groups.
+# Reaction is standard H+ loss: CH3SO2NH2 → CH3SO2NH- + H+
+
+[microstate]
+name         = MeSulfonamide
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+C      -1.300147     -0.289782      0.116404
+S       0.442841     -0.478514     -0.188058
+O       1.022034     -1.322532      0.829522
+O       0.665726     -0.698637     -1.597018
+N       1.013552      1.065551      0.125140
+H      -1.778411     -1.255299     -0.061616
+H      -1.700805      0.456368     -0.572109
+H      -1.447220      0.012340      1.154868
+H       1.661422      1.044768      0.915078
+H       1.421008      1.465735     -0.722210
+
+[microstate]
+name         = MeSulfonamidate
+functional_group = ammonium
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 10.1
+
+xyz =
+C      -1.017296     -0.106693     -0.023700
+S       0.654865      0.505888      0.008568
+O       0.919187      0.721845      1.426070
+O       0.602551      1.703310     -0.821128
+N       1.416574     -0.730467     -0.626457
+H      -1.669799      0.660843      0.399834
+H      -1.308936     -0.306043     -1.057401
+H      -1.081684     -1.015477      0.579052
+H       1.484539     -1.433206      0.115161
+

@@ -1,0 +1,59 @@
+# phthalimide.msf
+# Phthalimide (isoindole-1,3(2H)-dione)
+# pKa=8.300 (N-H imide acid, q=0→-1)
+# Source: Perrin 1981
+# Aromatic cyclic imide N-H acid. Fills the pKa 7-9 gap which has the
+# worst RMSE of any range (0.82). The fused benzene ring delocalises
+# charge into the aromatic system upon deprotonation → large ΔBO_ring.
+# Bridges barbituric acid (C-H, pKa=4.01) and saccharin (N-H, pKa=1.60)
+# with an aromatic N-H imide at an intermediate pKa.
+
+[microstate]
+name         = Phthalimide
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+O       2.049215     -2.261962     -0.306163
+C       1.670613     -1.120012     -0.143131
+N       2.426561     -0.001417      0.031110
+C       1.667701      1.118062      0.185937
+O       2.043333      2.259570      0.358640
+C       0.273203      0.685130      0.104279
+C      -0.898348      1.409712      0.195699
+C      -2.097409      0.699420      0.075777
+C      -2.095592     -0.696972     -0.129532
+C      -0.894681     -1.408665     -0.218687
+C       0.274986     -0.685451     -0.097239
+H       3.433573     -0.002004      0.044018
+H      -0.885003      2.483173      0.353715
+H      -3.046402      1.229234      0.141431
+H      -3.043208     -1.225676     -0.219511
+H      -0.878542     -2.482140     -0.376343
+
+[microstate]
+name         = Phthalimide_ani
+functional_group = imidazolium
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 8.3
+
+xyz =
+O       1.861916      2.570512      0.002444
+C       1.723203      1.354668      0.015910
+N       2.663160      0.395169      0.047225
+C       2.041709     -0.796016      0.050875
+O       2.526835     -1.919292      0.075436
+C       0.599995     -0.602675      0.019871
+C      -0.449326     -1.500544      0.011156
+C      -1.744475     -0.971955     -0.021438
+C      -1.951148      0.423584     -0.044126
+C      -0.864893      1.305535     -0.034462
+C       0.399524      0.750988     -0.002135
+H      -0.256227     -2.566306      0.029180
+H      -2.598314     -1.643795     -0.029321
+H      -2.962981      0.818589     -0.069354
+H      -0.988979      2.381538     -0.051258
+

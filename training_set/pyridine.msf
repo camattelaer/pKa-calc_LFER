@@ -1,0 +1,49 @@
+# pyridine.msf
+# Pyridine / pyridinium
+# pKa=5.230 (pyridinium → pyridine)
+# Source: Perrin 1981 / NIST
+# Pure aromatic N-base without fused ring or substituents.
+# Nicotinic acid (training) has pyridinium pKa=2.05 but always with
+# COOH group. Pure pyridine isolates the aromatic N-base contribution.
+
+[microstate]
+name         = Pyridinium
+charge       = +1
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+C       0.832189     -1.115198      0.010168
+C       1.378338      0.164742      0.000827
+C       0.526910      1.262061     -0.009227
+N      -0.803504      1.076758     -0.009818
+C      -1.359872     -0.145828     -0.000950
+C      -0.550299     -1.274378      0.009290
+H       1.484060     -1.988756      0.018133
+H       2.457753      0.301729      0.001410
+H       0.881188      2.287472     -0.016837
+H      -1.414130      1.895044     -0.017280
+H      -2.443735     -0.193536     -0.002252
+H      -0.988897     -2.270110      0.016537
+
+[microstate]
+name         = Pyridine
+functional_group = imidazolium
+charge       = +0
+multiplicity = 1
+n_protons    = 0
+pka_step     = 5.23
+
+xyz =
+C      -0.096348      1.179913      0.009774
+C      -1.235602      0.381866      0.010228
+C      -1.072106     -0.994213     -0.001469
+N       0.131296     -1.607893     -0.013321
+C       1.219189     -0.807014     -0.013452
+C       1.157274      0.577364     -0.002284
+H      -0.184741      2.262400      0.018743
+H      -2.226827      0.820532      0.019474
+H      -1.930494     -1.659708     -0.001617
+H       2.174164     -1.324356     -0.023096
+H       2.064196      1.171108     -0.002981
+

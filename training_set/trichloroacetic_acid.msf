@@ -1,0 +1,36 @@
+# pKa=0.700  CCl3COOH  Taft sp3 extreme
+# Extends haloacetic series to pKa<1; anchors low end for q=0 carboxylates.
+
+[microstate]
+name         = TCA
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+O       1.366300      0.603080     -0.591185
+C       0.588336     -0.270288      0.101916
+O       1.142746     -1.209805      0.658554
+C      -0.912136      0.058508      0.084522
+Cl     -1.819132     -1.155982      1.024779
+Cl     -1.487059      0.044831     -1.604193
+Cl     -1.159123      1.669280      0.810402
+H       2.280069      0.260377     -0.484796
+
+[microstate]
+name         = TCA_ani
+functional_group = carboxylate
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 0.7
+
+xyz =
+O       1.518603      1.025828      0.631075
+C       1.009638      0.013350      0.049511
+O       1.646917     -0.959239     -0.462641
+C      -0.559641     -0.021392     -0.035003
+Cl     -1.194885     -1.487691     -0.866854
+Cl     -1.264162      0.009898      1.624842
+Cl     -1.156469      1.419246     -0.940929
+

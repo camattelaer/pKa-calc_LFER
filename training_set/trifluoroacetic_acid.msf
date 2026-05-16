@@ -1,0 +1,43 @@
+# trifluoroacetic_acid.msf
+# Trifluoroacetic acid (TFA)
+# pKa=0.520 (CF3COOH → CF3COO-, q=0→-1)
+# Source: Perrin 1981
+# Strongest common carboxylate. Three F atoms inductively withdraw electron
+# density → pKa 4.2 units lower than acetic acid (0.52 vs 4.76).
+# Tests the GPR in a region where only phosphoric acid (pKa1=2.15) exists.
+# ΔE_CPCM should be distinct: highly electronegative substituents alter
+# the charge distribution on the carboxylate differently from alkyl groups.
+
+[microstate]
+name         = TFA
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+O       1.365302     -0.712501     -0.370444
+C       0.560271      0.270480      0.111178
+O       1.077472      1.301181      0.524835
+C      -0.936818     -0.044751      0.025337
+F      -1.689328      0.739742      0.846856
+F      -1.427284      0.138643     -1.233448
+F      -1.224163     -1.334026      0.363518
+H       2.274548     -0.358769     -0.267830
+
+[microstate]
+name         = TFA_anion
+functional_group = carboxylate
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 0.52
+
+xyz =
+O       1.510627     -1.032673      0.481262
+C       0.943739      0.020918      0.040343
+O       1.522507      1.087835     -0.346055
+C      -0.619136     -0.007009     -0.029441
+F      -1.140440      1.148388     -0.527882
+F      -1.160951     -0.194155      1.206920
+F      -1.056347     -1.023304     -0.825148
+

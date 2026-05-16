@@ -1,0 +1,47 @@
+# methoxyacetic acid  pKa=3.570
+# Source: NIST
+# Alpha-OMe: ED donor through space but mild EW inductive via O lone pairs.
+# pKa=3.57 tests the -I effect of O without the -M resonance available in
+# aromatic systems. Sits between acetic (4.76) and chloroacetic (2.87).
+
+[microstate]
+name         = MethoxyaceticAcid
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+O       2.605740      0.565605     -0.137373
+C       1.610821     -0.230686      0.316511
+O       1.874558     -1.174854      1.041878
+C       0.248865      0.220342     -0.190286
+O      -0.809619     -0.606595      0.277773
+C      -2.072124     -0.170905     -0.204900
+H       3.409740      0.166842      0.258805
+H       0.085372      1.246348      0.157411
+H       0.272468      0.190320     -1.285208
+H      -2.285640      0.844832      0.141753
+H      -2.098887     -0.209233     -1.298195
+H      -2.841293     -0.842017      0.186607
+
+[microstate]
+name         = Methoxyacetate
+functional_group = carboxylate
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 3.57
+
+xyz =
+O      -1.831866      0.414781      0.748726
+C      -1.430533      0.317266     -0.450405
+O      -1.842186      0.922556     -1.481598
+C      -0.304422     -0.720856     -0.679101
+O       1.029726     -0.175007     -0.527542
+C       1.235121      0.370133      0.769868
+H      -0.375134     -1.113663     -1.698932
+H      -0.420686     -1.569281      0.005254
+H       2.302257      0.582801      0.880802
+H       0.693911      1.313213      0.884808
+H       0.943814     -0.341944      1.548122
+

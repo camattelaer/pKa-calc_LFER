@@ -1,0 +1,67 @@
+# phosphoric_acid.msf — TEST SET (geometries from RDKit/MMFF)
+# pKa_exp: [2.15, 7.2, 12.35]
+
+[microstate]
+name         = H3PO4
+charge       = +0
+multiplicity = 1
+n_protons    = 3
+
+xyz =
+O      -0.982746     -1.014162     -0.448172
+P      -0.176208      0.187154      0.210174
+O      -1.037615      1.263260      0.760286
+O       0.813239      0.655472     -0.940827
+O       0.783008     -0.561551      1.229399
+H      -1.772888     -0.682830     -0.913238
+H       1.216867      1.515086     -0.717701
+H       1.156345     -1.362428      0.820079
+
+[microstate]
+name         = H2PO4_minus
+functional_group = phosphate
+charge       = -1
+multiplicity = 1
+n_protons    = 2
+pka_step     = 2.15
+
+xyz =
+O       0.312496     -0.086626      1.705109
+P      -0.046978     -0.330043      0.274608
+O      -0.555343     -1.619439     -0.285598
+O      -1.077967      0.795919     -0.214718
+O       1.214469      0.163039     -0.583173
+H      -1.540180      0.353256     -0.947445
+H       1.693503      0.723894      0.051216
+
+[microstate]
+name         = HPO4_2minus
+functional_group = phosphate
+charge       = -2
+multiplicity = 1
+n_protons    = 1
+pka_step     = 7.2
+
+xyz =
+O       0.065321      1.215269     -0.758192
+P      -0.443591      0.000384     -0.002054
+O      -1.068580      0.295532      1.342105
+O      -1.059568     -1.079696     -0.861407
+O       1.021025     -0.579580      0.365897
+H       1.485393      0.148091     -0.086349
+
+[microstate]
+name         = PO4_3minus
+functional_group = phosphate
+charge       = -3
+multiplicity = 1
+n_protons    = 0
+pka_step     = 12.35
+
+xyz =
+O       1.266860     -0.576063     -0.653593
+P      -0.000000      0.000000     -0.000000
+O       0.202061      0.085670      1.521775
+O      -1.196699     -0.915089     -0.307396
+O      -0.272223      1.405482     -0.560786
+

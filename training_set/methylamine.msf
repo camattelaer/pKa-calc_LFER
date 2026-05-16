@@ -1,0 +1,34 @@
+# methylamine.msf — training compound for pKa LFER calibration
+
+[microstate]
+name             = Methylammonium
+charge           = 1
+multiplicity     = 1
+n_protons        = 1
+
+xyz =
+C   0.0000   0.0000   0.0000
+N   0.0000   0.0000   1.4800
+H   0.0000   0.0000  -1.0800
+H   1.0200  -0.2600  -0.3600
+H  -0.5100   0.8800  -0.3600
+H  -0.3800  -0.8700   1.9100
+H   1.0000  -0.1500   1.8400
+H  -0.6200   0.7200   1.9100
+
+[microstate]
+name             = Methylamine
+charge           = 0
+multiplicity     = 1
+n_protons        = 0
+pka_step         = 10.66
+functional_group = ammonium
+
+xyz =
+C   0.0000   0.0000   0.0000
+N   0.0000   0.0000   1.4800
+H   0.0000   0.0000  -1.0800
+H   1.0200  -0.2600  -0.3600
+H  -0.5100   0.8800  -0.3600
+H  -0.3800  -0.8700   1.9100
+H   0.9900  -0.1300   1.8800

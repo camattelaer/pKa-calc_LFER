@@ -1,0 +1,39 @@
+# tetrazole.msf
+# 1H-Tetrazole
+# pKa=4.89 (N2-H deprotonation, neutral → anion)
+# Source: Albert & Serjeant 1971
+# All-nitrogen 5-membered ring; used as carboxylic acid bioisostere.
+# Unique Δq_N and ΔE_CPCM signature: 4 N atoms share the charge.
+# LFER key: imidazolium (nearest analogue — N-H in anionic heterocycle)
+
+[microstate]
+name         = Tetrazole
+charge       = +0
+multiplicity = 1
+n_protons    = 1
+
+xyz =
+C      -0.265340      0.763307      0.027026
+N      -0.521304     -0.568090      0.087528
+N       0.615679     -1.257286     -0.071254
+N       1.557078     -0.335807     -0.227583
+N       1.021580      0.929571     -0.168469
+H      -1.015259      1.532398      0.126517
+H      -1.392434     -1.064093      0.226236
+
+[microstate]
+name         = Tetrazolate
+functional_group = imidazolium
+charge       = -1
+multiplicity = 1
+n_protons    = 0
+pka_step     = 4.89
+
+xyz =
+C       0.729280     -0.022545      0.097417
+N      -0.021751      1.048110      0.416220
+N      -1.279061      0.668527      0.080831
+N      -1.251234     -0.590305     -0.418823
+N       0.024588     -1.048198     -0.415842
+H       1.798177     -0.055589      0.240198
+

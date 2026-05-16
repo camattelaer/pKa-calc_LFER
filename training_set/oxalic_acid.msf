@@ -1,0 +1,52 @@
+# oxalic_acid.msf — TEST SET (geometries from RDKit/MMFF)
+# pKa_exp: [1.25, 4.27]
+
+[microstate]
+name         = OxalicAcid
+charge       = +0
+multiplicity = 1
+n_protons    = 2
+
+xyz =
+O       1.508107     -0.092881     -0.962942
+C       0.765199     -0.011019      0.149579
+O       1.267601      0.038777      1.255107
+C      -0.765199      0.011019     -0.148657
+O      -1.267602     -0.038776     -1.254185
+O      -1.508107      0.092879      0.963864
+H       2.432215     -0.098149     -0.640821
+H      -2.432215      0.098149      0.641744
+
+[microstate]
+name         = HydroOxalate
+functional_group = carboxylate
+charge       = -1
+multiplicity = 1
+n_protons    = 1
+pka_step     = 1.25
+
+xyz =
+O       1.245667     -0.713565      0.209994
+C       0.372057      0.285413     -0.079250
+O       0.728264      1.413025     -0.398426
+C      -1.114223     -0.130560      0.031109
+O      -1.360229     -1.335254      0.372728
+O      -1.983042      0.765757     -0.228766
+H       2.111505     -0.284816      0.092612
+
+[microstate]
+name         = Oxalate
+functional_group = carboxylate
+charge       = -2
+multiplicity = 1
+n_protons    = 0
+pka_step     = 4.27
+
+xyz =
+O       1.376255     -1.120084     -0.096253
+C       0.779550      0.011966     -0.003906
+O       1.342123      1.161812      0.082629
+C      -0.779550     -0.011966      0.003907
+O      -1.342124     -1.161799     -0.082784
+O      -1.376253      1.120071      0.096407
+
