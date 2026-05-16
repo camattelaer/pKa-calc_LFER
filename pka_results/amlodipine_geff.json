@@ -1,0 +1,22 @@
+{
+  "compound": "amlodipine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "AmlodipineH_cation",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -1722.8511656720912,
+      "n_struct_found": 1071,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Amlodipine_neutral",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -1722.4113305541466,
+      "n_struct_found": 975,
+      "n_struct_used": 9
+    }
+  ]
+}

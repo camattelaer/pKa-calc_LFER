@@ -1,0 +1,22 @@
+{
+  "compound": "3_5_dinitrophenol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "3_5_DNP",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -716.344542991415,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "3_5_DNP_ani",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -715.8922342073,
+      "n_struct_found": 2,
+      "n_struct_used": 1
+    }
+  ]
+}

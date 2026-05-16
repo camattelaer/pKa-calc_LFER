@@ -1,0 +1,22 @@
+{
+  "compound": "2_chloropyridine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "2ClPyridinium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -708.192730708518,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "2ClPyridine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -707.7657958249249,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

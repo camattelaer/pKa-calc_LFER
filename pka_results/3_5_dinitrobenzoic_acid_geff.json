@@ -1,0 +1,22 @@
+{
+  "compound": "3_5_dinitrobenzoic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "3_5_DNBA",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -829.678588824877,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "3_5_DNBA_ani",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -829.236965672053,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

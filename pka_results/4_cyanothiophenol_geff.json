@@ -1,0 +1,22 @@
+{
+  "compound": "4_cyanothiophenol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "4CNThiophenol",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -722.5346926174434,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "4CNThiophenolate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -722.0892761461637,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    }
+  ]
+}

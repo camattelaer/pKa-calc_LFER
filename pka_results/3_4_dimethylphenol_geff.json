@@ -1,0 +1,22 @@
+{
+  "compound": "3_4_dimethylphenol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "3_4_DiMePhenol",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -385.90082410314795,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "3_4_DiMePhenoxide",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -385.427695615154,
+      "n_struct_found": 2,
+      "n_struct_used": 1
+    }
+  ]
+}

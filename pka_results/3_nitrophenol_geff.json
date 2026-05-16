@@ -1,0 +1,22 @@
+{
+  "compound": "3_nitrophenol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "3NitroPhenol",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -511.8477059913409,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "3NitroPhenoxide",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -511.386452003425,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

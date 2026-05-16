@@ -1,0 +1,22 @@
+{
+  "compound": "4_chlorothiophenol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "4ClThiophenol",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -1089.8899444491499,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "4ClThiophenolate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -1089.43847346641,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

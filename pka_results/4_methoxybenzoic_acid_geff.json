@@ -1,0 +1,22 @@
+{
+  "compound": "4_methoxybenzoic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "4MeOBenzoic",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -535.166630094504,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "4MeOBenzoate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -534.712274253744,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "compound": "4_hydroxybenzoic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "H2ParaHBA",
+      "charge": 0,
+      "n_protons": 2,
+      "G_eff_Eh": -495.9134155519346,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "HParaHBA",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -495.458279543979,
+      "n_struct_found": 2,
+      "n_struct_used": 1
+    },
+    {
+      "name": "ParaHBA_di",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -494.98859792783804,
+      "n_struct_found": 2,
+      "n_struct_used": 1
+    }
+  ]
+}

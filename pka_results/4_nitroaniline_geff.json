@@ -1,0 +1,22 @@
+{
+  "compound": "4_nitroaniline",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "4NitroAnilinium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -492.38996744890096,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "4NitroAniline",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -491.97402308565296,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

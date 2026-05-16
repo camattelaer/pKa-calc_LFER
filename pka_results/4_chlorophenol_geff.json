@@ -1,0 +1,22 @@
+{
+  "compound": "4_chlorophenol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "4ClPhenol",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -766.93781765976,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "4ClPhenoxide",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -766.4711106692159,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

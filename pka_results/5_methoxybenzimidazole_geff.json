@@ -1,0 +1,22 @@
+{
+  "compound": "5_methoxybenzimidazole",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "5MeObimH",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -494.6328888264772,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "5MeObim",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -494.19068912297286,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    }
+  ]
+}

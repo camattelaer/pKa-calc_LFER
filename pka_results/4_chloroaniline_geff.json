@@ -1,0 +1,22 @@
+{
+  "compound": "4_chloroaniline",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "4ClAnilinium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -747.483920940202,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "4ClAniline",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -747.0556187936661,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "compound": "4_cyanobenzoic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "4CNBenzoic",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -512.917466021343,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "4CNBenzoate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -512.4700620405848,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    }
+  ]
+}

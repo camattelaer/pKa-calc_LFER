@@ -1,0 +1,22 @@
+{
+  "compound": "4_methoxythiophenol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "4MeOThiophenol",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -744.7746794446809,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "4MeOThiophenolate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -744.319599858032,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

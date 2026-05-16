@@ -1,0 +1,22 @@
+{
+  "compound": "3_mercaptopropionic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "3MPA_anion_SH",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -666.0275095279857,
+      "n_struct_found": 11,
+      "n_struct_used": 9
+    },
+    {
+      "name": "3MPA_dianion_S",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -665.5555804272715,
+      "n_struct_found": 4,
+      "n_struct_used": 4
+    }
+  ]
+}

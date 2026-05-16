@@ -1,0 +1,22 @@
+{
+  "compound": "4_aminopyridine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "4AminoPyridinium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -303.969965111335,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "4AminoPyridine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -303.51757342986997,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

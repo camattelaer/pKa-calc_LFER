@@ -1,0 +1,22 @@
+{
+  "compound": "4_cyanophenol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "4CNPhenol",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -399.58431736124294,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "4CNPhenoxide",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -399.1277498322757,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    }
+  ]
+}

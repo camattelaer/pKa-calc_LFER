@@ -1,0 +1,30 @@
+{
+  "compound": "4_aminobenzoic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "PABA_cat",
+      "charge": 1,
+      "n_protons": 2,
+      "G_eff_Eh": -476.45442750434,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "PABA_zwit",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -476.007523564592,
+      "n_struct_found": 2,
+      "n_struct_used": 1
+    },
+    {
+      "name": "PABA_anion",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -475.575016775193,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

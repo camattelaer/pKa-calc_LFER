@@ -1,0 +1,22 @@
+{
+  "compound": "acetohydroxamic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "AcetoHA",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -284.30244337147025,
+      "n_struct_found": 4,
+      "n_struct_used": 4
+    },
+    {
+      "name": "AcetoHAanion",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -283.83671449638956,
+      "n_struct_found": 4,
+      "n_struct_used": 2
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "compound": "acetylacetone",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Acetylacetone",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -345.65364973747756,
+      "n_struct_found": 4,
+      "n_struct_used": 4
+    },
+    {
+      "name": "Acetylacetonate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -345.192330566086,
+      "n_struct_found": 6,
+      "n_struct_used": 6
+    }
+  ]
+}

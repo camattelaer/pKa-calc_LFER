@@ -1,0 +1,38 @@
+{
+  "compound": "amoxicillin",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "AmoxH2_cation",
+      "charge": 1,
+      "n_protons": 3,
+      "G_eff_Eh": -1559.7110135810779,
+      "n_struct_found": 63,
+      "n_struct_used": 2
+    },
+    {
+      "name": "AmoxH_zwitterion",
+      "charge": 0,
+      "n_protons": 2,
+      "G_eff_Eh": -1559.259881429354,
+      "n_struct_found": 33,
+      "n_struct_used": 9
+    },
+    {
+      "name": "Amox_neutral",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -1558.8201580726566,
+      "n_struct_found": 127,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Amox_dianion",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -1558.3504456444393,
+      "n_struct_found": 97,
+      "n_struct_used": 6
+    }
+  ]
+}

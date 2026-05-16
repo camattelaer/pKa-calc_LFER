@@ -1,0 +1,22 @@
+{
+  "compound": "2_methylimidazole",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "2MeImidazolium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -265.84711058040216,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "2MeImidazole",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -265.40190855379035,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    }
+  ]
+}

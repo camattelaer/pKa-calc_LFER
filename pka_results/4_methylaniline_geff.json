@@ -1,0 +1,22 @@
+{
+  "compound": "4_methylaniline",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "4MeAnilinium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -327.170288640296,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "4MeAniline",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -326.73899744689004,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

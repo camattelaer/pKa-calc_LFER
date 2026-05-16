@@ -1,0 +1,22 @@
+{
+  "compound": "5_chlorobenzimidazole",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "5ClbimH",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -839.744156993058,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "5Clbim",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -839.306309240333,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

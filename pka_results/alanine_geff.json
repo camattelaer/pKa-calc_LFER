@@ -1,0 +1,22 @@
+{
+  "compound": "alanine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Alanine_zwitterion",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -323.63850625234204,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Alanine_anion",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -323.13536461272804,
+      "n_struct_found": 4,
+      "n_struct_used": 1
+    }
+  ]
+}

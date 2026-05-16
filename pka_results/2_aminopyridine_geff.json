@@ -1,0 +1,22 @@
+{
+  "compound": "2_aminopyridine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "2AminoPyridinium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -303.96488762232997,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "2AminoPyridine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -303.51993613730497,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}
