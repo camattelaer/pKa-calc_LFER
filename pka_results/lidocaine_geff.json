@@ -1,0 +1,22 @@
+{
+  "compound": "lidocaine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "LidocaineH+",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -731.4746592820126,
+      "n_struct_found": 47,
+      "n_struct_used": 9
+    },
+    {
+      "name": "Lidocaine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -731.0281672614888,
+      "n_struct_found": 101,
+      "n_struct_used": 10
+    }
+  ]
+}

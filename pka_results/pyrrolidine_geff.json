@@ -1,0 +1,22 @@
+{
+  "compound": "pyrrolidine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Pyrrolidinium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -212.87725634693388,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "Pyrrolidine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -212.42254247187375,
+      "n_struct_found": 3,
+      "n_struct_used": 3
+    }
+  ]
+}

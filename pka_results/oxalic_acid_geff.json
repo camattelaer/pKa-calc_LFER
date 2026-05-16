@@ -1,0 +1,30 @@
+{
+  "compound": "oxalic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "OxalicAcid",
+      "charge": 0,
+      "n_protons": 2,
+      "G_eff_Eh": -378.2993081545445,
+      "n_struct_found": 9,
+      "n_struct_used": 9
+    },
+    {
+      "name": "HydroOxalate",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -377.865458761088,
+      "n_struct_found": 3,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Oxalate",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -377.40395408454407,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    }
+  ]
+}

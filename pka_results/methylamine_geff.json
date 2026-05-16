@@ -1,0 +1,22 @@
+{
+  "compound": "methylamine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Methylammonium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -96.24387128733508,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "Methylamine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -95.6526223421161,
+      "n_struct_found": 104,
+      "n_struct_used": 9
+    }
+  ]
+}

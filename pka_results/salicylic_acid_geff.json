@@ -1,0 +1,22 @@
+{
+  "compound": "salicylic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "SalicylicAcidH",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -495.914475716735,
+      "n_struct_found": 5,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Salicylate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -495.469738382084,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

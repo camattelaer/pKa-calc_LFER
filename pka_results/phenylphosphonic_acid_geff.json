@@ -1,0 +1,30 @@
+{
+  "compound": "phenylphosphonic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "PhPhonicAcid",
+      "charge": 0,
+      "n_protons": 2,
+      "G_eff_Eh": -799.8102137617471,
+      "n_struct_found": 7,
+      "n_struct_used": 6
+    },
+    {
+      "name": "PhPhonate_mono",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -799.3673783246079,
+      "n_struct_found": 4,
+      "n_struct_used": 3
+    },
+    {
+      "name": "PhPhonate_di",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -798.8878541256,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "compound": "sertraline",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "SertralineH_cation",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -1633.1980389922683,
+      "n_struct_found": 28,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Sertraline_neutral",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -1632.748433960687,
+      "n_struct_found": 48,
+      "n_struct_used": 10
+    }
+  ]
+}

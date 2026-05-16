@@ -1,0 +1,30 @@
+{
+  "compound": "methylphosphonic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "MePhosphonicAcid",
+      "charge": 0,
+      "n_protons": 2,
+      "G_eff_Eh": -608.1665789477594,
+      "n_struct_found": 3,
+      "n_struct_used": 3
+    },
+    {
+      "name": "MePhosphonate_mono",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -607.7186048745006,
+      "n_struct_found": 3,
+      "n_struct_used": 3
+    },
+    {
+      "name": "MePhosphonate_di",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -607.2360549930502,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    }
+  ]
+}

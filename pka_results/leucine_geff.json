@@ -1,0 +1,30 @@
+{
+  "compound": "leucine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "LeuH2_cation",
+      "charge": 1,
+      "n_protons": 2,
+      "G_eff_Eh": -441.8998148336276,
+      "n_struct_found": 45,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Leu_zwitterion",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -441.46303883312135,
+      "n_struct_found": 19,
+      "n_struct_used": 9
+    },
+    {
+      "name": "Leu_anion",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -441.00372966744175,
+      "n_struct_found": 27,
+      "n_struct_used": 8
+    }
+  ]
+}

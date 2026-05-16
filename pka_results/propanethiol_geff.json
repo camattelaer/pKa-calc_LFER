@@ -1,0 +1,22 @@
+{
+  "compound": "propanethiol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Propanethiol",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -517.1944606636667,
+      "n_struct_found": 9,
+      "n_struct_used": 9
+    },
+    {
+      "name": "Propanethiolate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -516.7253544373382,
+      "n_struct_found": 5,
+      "n_struct_used": 5
+    }
+  ]
+}

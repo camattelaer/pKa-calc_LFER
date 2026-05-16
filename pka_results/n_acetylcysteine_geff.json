@@ -1,0 +1,22 @@
+{
+  "compound": "n_acetylcysteine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "NAC_anion_SH",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -873.9684699411368,
+      "n_struct_found": 20,
+      "n_struct_used": 10
+    },
+    {
+      "name": "NAC_dianion_S",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -873.514810981865,
+      "n_struct_found": 20,
+      "n_struct_used": 4
+    }
+  ]
+}

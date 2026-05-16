@@ -1,0 +1,22 @@
+{
+  "compound": "pyridine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Pyridinium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -248.60835477136402,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Pyridine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -248.167760478855,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

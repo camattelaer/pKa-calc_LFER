@@ -1,0 +1,46 @@
+{
+  "compound": "levodopa",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "LDopa_cat",
+      "charge": 1,
+      "n_protons": 4,
+      "G_eff_Eh": -705.4528571394305,
+      "n_struct_found": 63,
+      "n_struct_used": 10
+    },
+    {
+      "name": "LDopa_zwit",
+      "charge": 0,
+      "n_protons": 3,
+      "G_eff_Eh": -705.0167267848615,
+      "n_struct_found": 22,
+      "n_struct_used": 8
+    },
+    {
+      "name": "LDopa_mono",
+      "charge": -1,
+      "n_protons": 2,
+      "G_eff_Eh": -704.5577838639431,
+      "n_struct_found": 44,
+      "n_struct_used": 6
+    },
+    {
+      "name": "LDopa_ph1",
+      "charge": -2,
+      "n_protons": 1,
+      "G_eff_Eh": -704.0944363649263,
+      "n_struct_found": 13,
+      "n_struct_used": 10
+    },
+    {
+      "name": "LDopa_ph2",
+      "charge": -3,
+      "n_protons": 0,
+      "G_eff_Eh": -703.5974559930148,
+      "n_struct_found": 10,
+      "n_struct_used": 9
+    }
+  ]
+}

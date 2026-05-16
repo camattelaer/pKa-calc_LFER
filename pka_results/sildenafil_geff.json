@@ -1,0 +1,22 @@
+{
+  "compound": "sildenafil",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "SildenafilH",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -1844.386519587299,
+      "n_struct_found": 204,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Sildenafil",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -1843.948937127744,
+      "n_struct_found": 529,
+      "n_struct_used": 10
+    }
+  ]
+}

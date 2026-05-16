@@ -1,0 +1,22 @@
+{
+  "compound": "metoprolol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "MetoprololH+",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -866.9887566236027,
+      "n_struct_found": 1911,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Metoprolol",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -866.5292801674225,
+      "n_struct_found": 3222,
+      "n_struct_used": 10
+    }
+  ]
+}

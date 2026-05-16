@@ -1,0 +1,30 @@
+{
+  "compound": "malonic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "MalonicAcid",
+      "charge": 0,
+      "n_protons": 2,
+      "G_eff_Eh": -417.58872341150277,
+      "n_struct_found": 17,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Malonate_mono",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -417.14947140519297,
+      "n_struct_found": 3,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Malonate_di",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -416.67971067846537,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    }
+  ]
+}

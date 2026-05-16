@@ -1,0 +1,30 @@
+{
+  "compound": "malic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "H2Malic",
+      "charge": 0,
+      "n_protons": 2,
+      "G_eff_Eh": -532.0825457779354,
+      "n_struct_found": 64,
+      "n_struct_used": 10
+    },
+    {
+      "name": "HMalate",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -531.6472394416851,
+      "n_struct_found": 25,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Malate2m",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -531.1784015960095,
+      "n_struct_found": 8,
+      "n_struct_used": 7
+    }
+  ]
+}

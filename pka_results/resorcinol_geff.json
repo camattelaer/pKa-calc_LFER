@@ -1,0 +1,30 @@
+{
+  "compound": "resorcinol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Resorcinol",
+      "charge": 0,
+      "n_protons": 2,
+      "G_eff_Eh": -382.5712932320206,
+      "n_struct_found": 3,
+      "n_struct_used": 3
+    },
+    {
+      "name": "Resorcinolate_m",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -382.10183723989456,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "Resorcinolate_d",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -381.617972974003,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

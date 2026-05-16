@@ -1,0 +1,30 @@
+{
+  "compound": "maleic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "H2Maleic",
+      "charge": 0,
+      "n_protons": 2,
+      "G_eff_Eh": -455.65838821994237,
+      "n_struct_found": 9,
+      "n_struct_used": 3
+    },
+    {
+      "name": "HMaleate_mon",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -455.22504389215305,
+      "n_struct_found": 5,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Maleate_di",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -454.75188377542275,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    }
+  ]
+}

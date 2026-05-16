@@ -1,0 +1,22 @@
+{
+  "compound": "ornithine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "H2Orn2plus",
+      "charge": 2,
+      "n_protons": 1,
+      "G_eff_Eh": -417.9124347304171,
+      "n_struct_found": 4,
+      "n_struct_used": 3
+    },
+    {
+      "name": "HOrnH1plus",
+      "charge": 1,
+      "n_protons": 0,
+      "G_eff_Eh": -417.4871383968091,
+      "n_struct_found": 5,
+      "n_struct_used": 2
+    }
+  ]
+}

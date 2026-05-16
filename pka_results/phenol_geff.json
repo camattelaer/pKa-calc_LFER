@@ -1,0 +1,22 @@
+{
+  "compound": "phenol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Phenol",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -307.3444266218201,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "Phenoxide",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -306.874134205613,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "compound": "propanoic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "PropanoicAcid",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -268.30728620461105,
+      "n_struct_found": 16,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Propanoate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -267.84953668147705,
+      "n_struct_found": 7,
+      "n_struct_used": 6
+    }
+  ]
+}

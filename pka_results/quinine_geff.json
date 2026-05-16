@@ -1,0 +1,30 @@
+{
+  "compound": "quinine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "QuinineH2+",
+      "charge": 2,
+      "n_protons": 2,
+      "G_eff_Eh": -1036.8173792770908,
+      "n_struct_found": 29,
+      "n_struct_used": 6
+    },
+    {
+      "name": "QuinineH+",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -1036.3815763346252,
+      "n_struct_found": 266,
+      "n_struct_used": 9
+    },
+    {
+      "name": "Quinine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -1035.9299737199058,
+      "n_struct_found": 329,
+      "n_struct_used": 9
+    }
+  ]
+}

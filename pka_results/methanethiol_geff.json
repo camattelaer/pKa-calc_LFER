@@ -1,0 +1,22 @@
+{
+  "compound": "methanethiol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Methanethiol",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -438.6425954347096,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "Methanethiolate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -438.174225067768,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "compound": "succinic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "H2Succinate",
+      "charge": 0,
+      "n_protons": 2,
+      "G_eff_Eh": -456.87022716669185,
+      "n_struct_found": 30,
+      "n_struct_used": 8
+    },
+    {
+      "name": "HSuccinate",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -456.42725209338005,
+      "n_struct_found": 8,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Succinate2m",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -455.9546820026185,
+      "n_struct_found": 8,
+      "n_struct_used": 8
+    }
+  ]
+}

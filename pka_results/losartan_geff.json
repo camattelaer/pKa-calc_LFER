@@ -1,0 +1,22 @@
+{
+  "compound": "losartan",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "LosartanH",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -1715.4698785105193,
+      "n_struct_found": 479,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Losartan",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -1715.0231057065844,
+      "n_struct_found": 641,
+      "n_struct_used": 9
+    }
+  ]
+}

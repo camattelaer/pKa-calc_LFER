@@ -1,0 +1,22 @@
+{
+  "compound": "n_propylamine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "nPropylammonium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -175.98675135080535,
+      "n_struct_found": 282,
+      "n_struct_used": 7
+    },
+    {
+      "name": "nPropylamine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -175.52011669385666,
+      "n_struct_found": 352,
+      "n_struct_used": 3
+    }
+  ]
+}

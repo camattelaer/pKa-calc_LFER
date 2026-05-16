@@ -1,0 +1,22 @@
+{
+  "compound": "saccharin",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Saccharin",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -948.160492936572,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Saccharinate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -947.720436567642,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

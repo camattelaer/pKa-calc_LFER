@@ -1,0 +1,30 @@
+{
+  "compound": "nicotinic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "NicotinicH2_cation",
+      "charge": 1,
+      "n_protons": 2,
+      "G_eff_Eh": -437.16507566109107,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "NicotinicH_neutral",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -436.7307526661737,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    },
+    {
+      "name": "Nicotinate_anion",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -436.28296831942714,
+      "n_struct_found": 2,
+      "n_struct_used": 2
+    }
+  ]
+}

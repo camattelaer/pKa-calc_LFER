@@ -1,0 +1,30 @@
+{
+  "compound": "metformin",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "MetforminH2_dication",
+      "charge": 2,
+      "n_protons": 2,
+      "G_eff_Eh": -433.40656987901144,
+      "n_struct_found": 21,
+      "n_struct_used": 5
+    },
+    {
+      "name": "MetforminH_cation",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -432.99485360689255,
+      "n_struct_found": 18,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Metformin_neutral",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -432.58961080123066,
+      "n_struct_found": 17,
+      "n_struct_used": 10
+    }
+  ]
+}

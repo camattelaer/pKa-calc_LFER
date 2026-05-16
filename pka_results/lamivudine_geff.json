@@ -1,0 +1,22 @@
+{
+  "compound": "lamivudine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "LamivudineH",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -1099.7747033967225,
+      "n_struct_found": 58,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Lamivudine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -1099.3359028556374,
+      "n_struct_found": 53,
+      "n_struct_used": 10
+    }
+  ]
+}

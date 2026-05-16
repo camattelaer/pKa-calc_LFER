@@ -1,0 +1,22 @@
+{
+  "compound": "lysine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "H2Lys2plus",
+      "charge": 2,
+      "n_protons": 1,
+      "G_eff_Eh": -457.1960936251728,
+      "n_struct_found": 12,
+      "n_struct_used": 8
+    },
+    {
+      "name": "HLys1plus",
+      "charge": 1,
+      "n_protons": 0,
+      "G_eff_Eh": -456.76211888059174,
+      "n_struct_found": 10,
+      "n_struct_used": 8
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "compound": "methoxyacetic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "MethoxyaceticAcid",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -343.4991354764614,
+      "n_struct_found": 8,
+      "n_struct_used": 8
+    },
+    {
+      "name": "Methoxyacetate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -343.04612648451376,
+      "n_struct_found": 4,
+      "n_struct_used": 2
+    }
+  ]
+}

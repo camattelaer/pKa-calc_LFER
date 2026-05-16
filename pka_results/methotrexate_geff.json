@@ -1,0 +1,30 @@
+{
+  "compound": "methotrexate",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "MTX_neutral",
+      "charge": 0,
+      "n_protons": 2,
+      "G_eff_Eh": -1702.3694694409749,
+      "n_struct_found": 298,
+      "n_struct_used": 2
+    },
+    {
+      "name": "MTX_mono",
+      "charge": -1,
+      "n_protons": 1,
+      "G_eff_Eh": -1701.914856889819,
+      "n_struct_found": 48,
+      "n_struct_used": 4
+    },
+    {
+      "name": "MTX_di",
+      "charge": -2,
+      "n_protons": 0,
+      "G_eff_Eh": -1701.460431010082,
+      "n_struct_found": 155,
+      "n_struct_used": 1
+    }
+  ]
+}

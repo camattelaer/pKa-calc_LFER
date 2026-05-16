@@ -1,0 +1,22 @@
+{
+  "compound": "propranolol",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "PropranololH+",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -788.266300386657,
+      "n_struct_found": 197,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Propranolol",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -787.8191119224388,
+      "n_struct_found": 221,
+      "n_struct_used": 5
+    }
+  ]
+}

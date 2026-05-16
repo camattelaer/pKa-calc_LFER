@@ -1,0 +1,22 @@
+{
+  "compound": "quinuclidine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Quinuclidinium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -329.510008130738,
+      "n_struct_found": 2,
+      "n_struct_used": 1
+    },
+    {
+      "name": "Quinuclidine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -329.05418527786105,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

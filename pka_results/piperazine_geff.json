@@ -1,0 +1,30 @@
+{
+  "compound": "piperazine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "PiperazineH2_2plus",
+      "charge": 2,
+      "n_protons": 2,
+      "G_eff_Eh": -268.63529278326297,
+      "n_struct_found": 2,
+      "n_struct_used": 1
+    },
+    {
+      "name": "PiperazineH_plus",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -268.19756888505935,
+      "n_struct_found": 4,
+      "n_struct_used": 2
+    },
+    {
+      "name": "Piperazine_neutral",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -267.745569393066,
+      "n_struct_found": 6,
+      "n_struct_used": 3
+    }
+  ]
+}

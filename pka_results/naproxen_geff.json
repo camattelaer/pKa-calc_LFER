@@ -1,0 +1,22 @@
+{
+  "compound": "naproxen",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Naproxen",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -767.2834760487684,
+      "n_struct_found": 10,
+      "n_struct_used": 9
+    },
+    {
+      "name": "Naproxenate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -766.8284046396756,
+      "n_struct_found": 10,
+      "n_struct_used": 4
+    }
+  ]
+}

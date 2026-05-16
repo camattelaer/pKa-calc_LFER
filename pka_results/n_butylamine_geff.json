@@ -1,0 +1,22 @@
+{
+  "compound": "n_butylamine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "nBuAmmonium",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -214.07059825119245,
+      "n_struct_found": 10,
+      "n_struct_used": 7
+    },
+    {
+      "name": "nBuAmine",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -213.61858848311655,
+      "n_struct_found": 28,
+      "n_struct_used": 10
+    }
+  ]
+}

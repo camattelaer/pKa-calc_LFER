@@ -1,0 +1,22 @@
+{
+  "compound": "oseltamivir",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "OseltamivirH",
+      "charge": 1,
+      "n_protons": 1,
+      "G_eff_Eh": -884.256824094397,
+      "n_struct_found": 555,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Oseltamivir",
+      "charge": 0,
+      "n_protons": 0,
+      "G_eff_Eh": -883.8071277708531,
+      "n_struct_found": 2065,
+      "n_struct_used": 4
+    }
+  ]
+}

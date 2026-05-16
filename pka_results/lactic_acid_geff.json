@@ -1,0 +1,22 @@
+{
+  "compound": "lactic_acid",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "LacticAcid",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -343.5223977911202,
+      "n_struct_found": 12,
+      "n_struct_used": 10
+    },
+    {
+      "name": "Lactate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -343.07373366246503,
+      "n_struct_found": 1,
+      "n_struct_used": 1
+    }
+  ]
+}

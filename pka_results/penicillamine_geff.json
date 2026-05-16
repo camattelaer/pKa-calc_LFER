@@ -1,0 +1,22 @@
+{
+  "compound": "penicillamine",
+  "method": "r2SCAN-3c",
+  "microstates": [
+    {
+      "name": "Penicillamine_zwitterion",
+      "charge": 0,
+      "n_protons": 1,
+      "G_eff_Eh": -800.3644819383965,
+      "n_struct_found": 9,
+      "n_struct_used": 7
+    },
+    {
+      "name": "Penicillamine_thiolate",
+      "charge": -1,
+      "n_protons": 0,
+      "G_eff_Eh": -799.9077819135953,
+      "n_struct_found": 17,
+      "n_struct_used": 8
+    }
+  ]
+}
